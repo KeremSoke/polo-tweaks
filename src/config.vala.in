@@ -1,0 +1,5 @@
+namespace PoloTweaks.Config {
+    public const string VERSION = "@VERSION@";
+    public const string DOMAIN = "@GETTEXT_PACKAGE@";
+    public const string LOCALEDIR = "@LOCALEDIR@";
+}

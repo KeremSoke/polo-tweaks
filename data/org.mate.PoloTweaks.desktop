@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Polo Tweaks
+GenericName=Compositor Settings
+Comment=Configure Polo's effects, desktop cube, Expo and shortcuts
+Exec=polo-tweaks
+Icon=preferences-system-windows
+Terminal=false
+Categories=Settings;DesktopSettings;GTK;
+Keywords=polo;effects;cube;expo;wobbly;animations;shortcuts;compositor;
+StartupNotify=true
