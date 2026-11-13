@@ -11,7 +11,6 @@ Needs Vala, Meson and GTK 3 (`vala meson gtk3-devel` on Fedora). Polo's schemas 
 ```sh
 meson setup build
 ninja -C build
-meson test -C build
 ./build/src/polo-tweaks            # or: --page=cube  (general, wobbly, animations, expo, cube, shortcuts)
-sudo ninja -C build install
+sudo ninja -C build install        # to install
 ```
