@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: polo-tweaks\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-18 12:10-0700\n"
+"POT-Creation-Date: 2026-11-18 12:36-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -226,155 +226,167 @@ msgstr ""
 msgid "A switch from before the minimise animation could be chosen. It only has an effect while the minimise animation is None."
 msgstr ""
 
-#: src/page-background.vala:61 src/page-background.vala:87
+#: src/page-background.vala:62 src/page-background.vala:88
 #: src/page-cube.vala:37 src/page-expo.vala:33
 msgid "Background"
 msgstr ""
 
-#: src/page-background.vala:62
+#: src/page-background.vala:63
 msgid "The desktop background, for all monitors and workspaces or for each on its own."
 msgstr ""
 
-#: src/page-background.vala:63 src/page-general.vala:9
+#: src/page-background.vala:64 src/page-general.vala:9
 msgid "Desktop"
 msgstr ""
 
-#: src/page-background.vala:76
+#: src/page-background.vala:77
 msgid "Let Polo draw the background"
 msgstr ""
 
-#: src/page-background.vala:77
+#: src/page-background.vala:78
 msgid "Polo draws the background under the desktop icons, so each monitor and each workspace can have its own, and the cube and Expo show them. When off, Caja draws one background behind its icons, and Polo draws it only while Caja is not running."
 msgstr ""
 
-#: src/page-background.vala:88
+#: src/page-background.vala:89
 msgid "Shown on every monitor and workspace that has no background of its own."
 msgstr ""
 
-#: src/page-background.vala:106
+#: src/page-background.vala:107
 msgid "Polo"
 msgstr ""
 
-#: src/page-background.vala:106
+#: src/page-background.vala:107
 msgid "Caja"
 msgstr ""
 
-#: src/page-background.vala:117
+#: src/page-background.vala:118
 msgid "Image"
 msgstr ""
 
-#: src/page-background.vala:118
+#: src/page-background.vala:119
 msgid "Leave empty to show only the colours."
 msgstr ""
 
-#: src/page-background.vala:118
+#: src/page-background.vala:119
 msgid "Choose a background image"
 msgstr ""
 
-#: src/page-background.vala:119
+#: src/page-background.vala:120
 msgid "Fit"
 msgstr ""
 
-#: src/page-background.vala:121
+#: src/page-background.vala:122
 msgid "Zoom (fill, cropping the edges)"
 msgstr ""
 
-#: src/page-background.vala:121
+#: src/page-background.vala:122
 msgid "Scale (fit inside)"
 msgstr ""
 
-#: src/page-background.vala:121
+#: src/page-background.vala:122
 msgid "Stretch"
 msgstr ""
 
-#: src/page-background.vala:122
+#: src/page-background.vala:123
 msgid "Centre"
 msgstr ""
 
-#: src/page-background.vala:122
+#: src/page-background.vala:123
 msgid "Tile"
 msgstr ""
 
-#: src/page-background.vala:122
+#: src/page-background.vala:123
 msgid "Span across monitors"
 msgstr ""
 
-#: src/page-background.vala:123
+#: src/page-background.vala:124
 msgid "Colours"
 msgstr ""
 
-#: src/page-background.vala:124
+#: src/page-background.vala:125
 msgid "Shown where the image does not cover the screen, or instead of it."
 msgstr ""
 
-#: src/page-background.vala:126 src/page-cube.vala:40
+#: src/page-background.vala:127 src/page-cube.vala:40
 msgid "Solid colour"
 msgstr ""
 
-#: src/page-background.vala:126
+#: src/page-background.vala:127
 msgid "Horizontal gradient"
 msgstr ""
 
-#: src/page-background.vala:126
+#: src/page-background.vala:127
 msgid "Vertical gradient"
 msgstr ""
 
-#: src/page-background.vala:127 src/page-cube.vala:43
+#: src/page-background.vala:128 src/page-cube.vala:43
 msgid "Colour"
 msgstr ""
 
-#: src/page-background.vala:128
+#: src/page-background.vala:129
 msgid "Second colour"
 msgstr ""
 
-#: src/page-background.vala:210
+#: src/page-background.vala:221
 msgid "Turn on “Let Polo draw the background” to use these: Caja draws one background for every monitor and workspace."
 msgstr ""
 
-#: src/page-background.vala:215
+#: src/page-background.vala:231
 msgid "Needs a mate-desktop with per-monitor backgrounds (the org.mate.background.monitor settings)."
 msgstr ""
 
-#: src/page-background.vala:218
+#: src/page-background.vala:233
+msgid "Workspaces have their own backgrounds. Turn those off to give a monitor its own."
+msgstr ""
+
+#: src/page-background.vala:237
 msgid "Needs a Polo with per-workspace backgrounds (the org.mate.polo.background.workspace settings)."
 msgstr ""
 
-#: src/page-background.vala:248
+#: src/page-background.vala:241
+msgid "Monitors have their own backgrounds. Turn those off to give a workspace its own."
+msgstr ""
+
+#: src/page-background.vala:243
+msgid "A monitor with its own background ignores these. Use either per-monitor or per-workspace backgrounds, not both."
+msgstr ""
+
+#: src/page-background.vala:276
 msgid "Per monitor"
 msgstr ""
 
-#: src/page-background.vala:249
+#: src/page-background.vala:277
 msgid "A monitor with its own background keeps it on every workspace."
 msgstr ""
 
-#: src/page-background.vala:260
+#: src/page-background.vala:288
 msgid "Monitor"
 msgstr ""
 
-#: src/page-background.vala:278
+#: src/page-background.vala:306
 #, c-format
 msgid "%s · The same model as another monitor. Polo tells them apart by serial number, which Polo Tweaks cannot see."
 msgstr ""
 
-#: src/page-background.vala:285
+#: src/page-background.vala:313
 #, c-format
 msgid "%s · Give this monitor its own background"
 msgstr ""
 
-#: src/page-background.vala:300
+#: src/page-background.vala:328
 #, c-format
 msgid "Workspace %d"
 msgstr ""
 
-#: src/page-background.vala:304
+#: src/page-background.vala:332
 msgid "Per workspace"
 msgstr ""
 
-#: src/page-background.vala:305
+#: src/page-background.vala:333
 msgid "Shown while the workspace is the current one, on every monitor without a background of its own."
 msgstr ""
 
-#: src/page-background.vala:313
+#: src/page-background.vala:343
 msgid "Give this workspace its own background"
 msgstr ""
 

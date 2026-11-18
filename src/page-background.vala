@@ -17,6 +17,7 @@ namespace PoloTweaks {
         private Settings? marco = null;
         private Settings? names = null;
         private GLib.GenericArray<Settings> monitor_settings = new GLib.GenericArray<Settings> ();
+        private GLib.GenericArray<Settings> workspace_settings = new GLib.GenericArray<Settings> ();
         private Section monitors;
         private Section workspaces;
         private uint rebuild_idle = 0;
@@ -145,6 +146,7 @@ namespace PoloTweaks {
                 if (!s.get_boolean ("use-shared")) {
                     seed (s);
                 }
+                refresh_sections ();
             });
             add_picture_rows (group, s, true);
         }
@@ -205,17 +207,43 @@ namespace PoloTweaks {
             refresh_sections ();
         }
 
+        private static bool any_own (GLib.GenericArray<Settings> list) {
+            foreach (var s in list) {
+                if (!s.get_boolean ("use-shared")) {
+                    return true;
+                }
+            }
+            return false;
+        }
+
         private void refresh_sections () {
             string? off = polo_draws () ? null
                         : _("Turn on “Let Polo draw the background” to use these: Caja draws one background for every monitor and workspace.");
             bool monitors_installed = Schemas.installed (MONITOR_SCHEMA);
             bool workspaces_installed = Schemas.installed (WORKSPACE_SCHEMA);
-            monitors.explain (monitors_installed && off == null,
-                              monitors_installed ? null
-                              : _("Needs a mate-desktop with per-monitor backgrounds (the org.mate.background.monitor settings)."));
-            workspaces.explain (workspaces_installed && off == null,
-                                workspaces_installed ? off
-                                : _("Needs a Polo with per-workspace backgrounds (the org.mate.polo.background.workspace settings)."));
+            bool monitors_own = any_own (monitor_settings);
+            bool workspaces_own = any_own (workspace_settings);
+            bool monitors_blocked = workspaces_own && !monitors_own;
+            bool workspaces_blocked = monitors_own && !workspaces_own;
+
+            string? monitor_why = null;
+            if (!monitors_installed) {
+                monitor_why = _("Needs a mate-desktop with per-monitor backgrounds (the org.mate.background.monitor settings).");
+            } else if (off == null && monitors_blocked) {
+                monitor_why = _("Workspaces have their own backgrounds. Turn those off to give a monitor its own.");
+            }
+            string? workspace_why = null;
+            if (!workspaces_installed) {
+                workspace_why = _("Needs a Polo with per-workspace backgrounds (the org.mate.polo.background.workspace settings).");
+            } else if (off != null) {
+                workspace_why = off;
+            } else if (workspaces_blocked) {
+                workspace_why = _("Monitors have their own backgrounds. Turn those off to give a workspace its own.");
+            } else if (monitors_own && workspaces_own) {
+                workspace_why = _("A monitor with its own background ignores these. Use either per-monitor or per-workspace backgrounds, not both.");
+            }
+            monitors.explain (monitors_installed && off == null && !monitors_blocked, monitor_why);
+            workspaces.explain (workspaces_installed && off == null && !workspaces_blocked, workspace_why);
         }
 
         /* ---- Monitors --------------------------------------------------------------- */
@@ -306,10 +334,12 @@ namespace PoloTweaks {
             if (!Schemas.installed (WORKSPACE_SCHEMA)) {
                 return;
             }
+            workspace_settings.remove_range (0, workspace_settings.length);
             int count = marco != null ? marco.get_int ("num-workspaces").clamp (1, 36) : 4;
             for (int i = 0; i < count; i++) {
                 var s = relocatable (WORKSPACE_SCHEMA, "%s%d/".printf (WORKSPACE_PATH, i + 1));
                 if (s != null) {
+                    workspace_settings.add (s);
                     add_own (group, s, workspace_name (i), _("Give this workspace its own background"));
                 }
             }
