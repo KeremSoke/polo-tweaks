@@ -1,0 +1,1078 @@
+# Polo Tweaks translation template.
+# Copyright (C) the Polo Tweaks authors
+# This file is distributed under the same license as the polo-tweaks package.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: polo-tweaks 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-17 20:12-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/org.mate.PoloTweaks.desktop:3 src/window.vala:71 src/window.vala:83
+#: src/window.vala:267
+msgid "Polo Tweaks"
+msgstr ""
+
+#: data/org.mate.PoloTweaks.desktop:4
+msgid "Compositor Settings"
+msgstr ""
+
+#: data/org.mate.PoloTweaks.desktop:5
+msgid "Configure Polo's effects, desktop cube, Expo and shortcuts"
+msgstr ""
+
+#: data/org.mate.PoloTweaks.desktop:10
+msgid "polo;effects;cube;expo;wobbly;animations;shortcuts;compositor;"
+msgstr ""
+
+#: src/accel.vala:211 src/accel.vala:293
+msgid "Disabled"
+msgstr ""
+
+#: src/accel.vala:214
+#, c-format
+msgid "Key %s"
+msgstr ""
+
+#: src/accel.vala:223
+#, c-format
+msgid "Keypad %s"
+msgstr ""
+
+#: src/accel.vala:273
+msgid "Left button"
+msgstr ""
+
+#: src/accel.vala:275
+msgid "Middle button"
+msgstr ""
+
+#: src/accel.vala:277
+msgid "Right button"
+msgstr ""
+
+#: src/accel.vala:279
+msgid "Back button"
+msgstr ""
+
+#: src/accel.vala:281
+msgid "Forward button"
+msgstr ""
+
+#: src/accel.vala:283
+#, c-format
+msgid "Button %u"
+msgstr ""
+
+#: src/conflicts.vala:32 src/page-expo.vala:16 src/page-shortcuts.vala:15
+msgid "Show Expo"
+msgstr ""
+
+#: src/conflicts.vala:33 src/page-shortcuts.vala:33
+msgid "Choose how the screens are used"
+msgstr ""
+
+#: src/conflicts.vala:34 src/page-shortcuts.vala:18
+msgid "Show the desktop cube"
+msgstr ""
+
+#: src/conflicts.vala:35 src/page-shortcuts.vala:21
+msgid "Turn the cube left"
+msgstr ""
+
+#: src/conflicts.vala:36 src/page-shortcuts.vala:24
+msgid "Turn the cube right"
+msgstr ""
+
+#: src/conflicts.vala:37 src/page-shortcuts.vala:27
+msgid "Turn the cube with the mouse"
+msgstr ""
+
+#: src/conflicts.vala:38 src/page-shortcuts.vala:37
+msgid "Turn the magnifier on or off"
+msgstr ""
+
+#: src/conflicts.vala:39 src/page-shortcuts.vala:39
+msgid "Magnify more"
+msgstr ""
+
+#: src/conflicts.vala:40 src/page-shortcuts.vala:41
+msgid "Magnify less"
+msgstr ""
+
+#: src/conflicts.vala:47
+#, c-format
+msgid "%s (window manager)"
+msgstr ""
+
+#: src/page-animations.vala:7
+msgid "Window Animations"
+msgstr ""
+
+#: src/page-animations.vala:8
+msgid "How windows appear, disappear and go into the taskbar."
+msgstr ""
+
+#: src/page-animations.vala:9 src/page-cube.vala:9 src/page-expo.vala:9
+#: src/page-shortcuts.vala:14 src/page-wobbly.vala:18
+msgid "Effects"
+msgstr ""
+
+#: src/page-animations.vala:14 src/page-animations.vala:26
+msgid "None"
+msgstr ""
+
+#: src/page-animations.vala:14 src/page-animations.vala:26
+msgid "Fade"
+msgstr ""
+
+#: src/page-animations.vala:14 src/page-animations.vala:26
+msgid "Zoom"
+msgstr ""
+
+#: src/page-animations.vala:14 src/page-animations.vala:42
+msgid "Zap"
+msgstr ""
+
+#: src/page-animations.vala:14 src/page-animations.vala:45
+msgid "Spin"
+msgstr ""
+
+#: src/page-animations.vala:16
+msgid "Animation"
+msgstr ""
+
+#: src/page-animations.vala:17
+msgid "When a window opens"
+msgstr ""
+
+#: src/page-animations.vala:18
+msgid ""
+"Fade, Zoom (grows from a third of its size), Zap (fades in, then stretches "
+"across and down) or Spin (turns in from a point)."
+msgstr ""
+
+#: src/page-animations.vala:20
+msgid "When a window closes"
+msgstr ""
+
+#: src/page-animations.vala:21
+msgid "The opening animations, played backwards."
+msgstr ""
+
+#: src/page-animations.vala:23
+msgid "When a window is minimised or restored"
+msgstr ""
+
+#: src/page-animations.vala:24
+msgid ""
+"Squeezimize and Magic Lamp need the GL renderer; without it they fade "
+"instead."
+msgstr ""
+
+#: src/page-animations.vala:26 src/page-animations.vala:53
+msgid "Squeezimize"
+msgstr ""
+
+#: src/page-animations.vala:26 src/page-animations.vala:55
+msgid "Magic Lamp"
+msgstr ""
+
+#. Timing rows appear only for the animations in use.
+#: src/page-animations.vala:29
+msgid "Timing"
+msgstr ""
+
+#: src/page-animations.vala:32
+msgid "Fade and zoom"
+msgstr ""
+
+#: src/page-animations.vala:32 src/page-animations.vala:42
+#: src/page-animations.vala:45 src/page-animations.vala:53
+#: src/page-animations.vala:55 src/page-cube.vala:63
+msgid "ms"
+msgstr ""
+
+#: src/page-animations.vala:48
+msgid "Spin turns"
+msgstr ""
+
+#: src/page-animations.vala:49
+msgid ""
+"How many full turns the window makes; a negative number turns the other way."
+msgstr ""
+
+#: src/page-animations.vala:60
+msgid "Nothing to time"
+msgstr ""
+
+#: src/page-animations.vala:60
+msgid "All three animations are set to None."
+msgstr ""
+
+#: src/page-animations.vala:70
+msgid "Advanced: older settings"
+msgstr ""
+
+#: src/page-animations.vala:72
+msgid "Minimise with Magic Lamp"
+msgstr ""
+
+#: src/page-animations.vala:73
+msgid ""
+"A switch from before the minimise animation could be chosen. It only has an "
+"effect while the minimise animation is None."
+msgstr ""
+
+#: src/page-cube.vala:7
+msgid "Desktop Cube"
+msgstr ""
+
+#: src/page-cube.vala:8
+msgid "Switch workspaces by turning a 3D cube."
+msgstr ""
+
+#: src/page-cube.vala:15
+msgid ""
+"The cube needs Polo's GL renderer. Without it, workspaces switch as if the "
+"cube were off."
+msgstr ""
+
+#: src/page-cube.vala:18
+msgid "Shortcuts"
+msgstr ""
+
+#: src/page-cube.vala:19
+msgid "These are the same shortcuts you find under Keyboard Shortcuts."
+msgstr ""
+
+#: src/page-cube.vala:20
+msgid "Show the cube"
+msgstr ""
+
+#: src/page-cube.vala:21
+msgid ""
+"Opens the cube zoomed out, so you can turn it by hand and pick the workspace "
+"in front."
+msgstr ""
+
+#: src/page-cube.vala:22
+msgid "Turn left"
+msgstr ""
+
+#: src/page-cube.vala:23
+msgid ""
+"Turns the cube one workspace to the left. The window manager's “switch to "
+"workspace left” shortcut also turns the cube."
+msgstr ""
+
+#: src/page-cube.vala:24
+msgid "Turn right"
+msgstr ""
+
+#: src/page-cube.vala:25 src/page-shortcuts.vala:25
+msgid "Turns the cube one workspace to the right."
+msgstr ""
+
+#: src/page-cube.vala:26
+msgid "Turn with the mouse"
+msgstr ""
+
+#: src/page-cube.vala:27
+msgid ""
+"Hold the modifier keys and drag. Letting go lands on the workspace in front. "
+"Applications do not receive that click."
+msgstr ""
+
+#: src/page-cube.vala:29
+msgid "Appearance"
+msgstr ""
+
+#: src/page-cube.vala:30
+msgid "Shape of the sides"
+msgstr ""
+
+#: src/page-cube.vala:31
+msgid "Bends the sides while you turn the cube by hand."
+msgstr ""
+
+#: src/page-cube.vala:33
+msgid "Flat"
+msgstr ""
+
+#: src/page-cube.vala:33
+msgid "Cylinder"
+msgstr ""
+
+#: src/page-cube.vala:33
+msgid "Star (corners pulled out)"
+msgstr ""
+
+#: src/page-cube.vala:34
+msgid "Shade the sides"
+msgstr ""
+
+#: src/page-cube.vala:35
+msgid "Darkens each side by how it faces the light in front of the screen."
+msgstr ""
+
+#: src/page-cube.vala:37 src/page-expo.vala:33
+msgid "Background"
+msgstr ""
+
+#: src/page-cube.vala:38
+msgid "Behind the cube"
+msgstr ""
+
+#: src/page-cube.vala:40
+msgid "Solid colour"
+msgstr ""
+
+#: src/page-cube.vala:40 src/page-expo.vala:36
+msgid "Desktop background"
+msgstr ""
+
+#: src/page-cube.vala:40 src/page-expo.vala:36
+msgid "Blurred desktop background"
+msgstr ""
+
+#: src/page-cube.vala:41
+msgid "Skydome (panorama image)"
+msgstr ""
+
+#: src/page-cube.vala:41
+msgid "Cubemap (box image)"
+msgstr ""
+
+#: src/page-cube.vala:43
+msgid "Colour"
+msgstr ""
+
+#: src/page-cube.vala:45
+msgid "Panorama image"
+msgstr ""
+
+#: src/page-cube.vala:46
+msgid ""
+"A wide image wrapped around the cube on a sphere. If it cannot be read, the "
+"solid colour is used."
+msgstr ""
+
+#: src/page-cube.vala:47
+msgid "Choose a panorama image"
+msgstr ""
+
+#: src/page-cube.vala:49
+msgid "Mirror the image"
+msgstr ""
+
+#: src/page-cube.vala:50
+msgid ""
+"Shows the image twice around the sphere, the second time flipped, so its "
+"ends meet without a seam."
+msgstr ""
+
+#: src/page-cube.vala:52
+msgid "Cubemap image"
+msgstr ""
+
+#: src/page-cube.vala:53
+msgid ""
+"An image shown on all six faces of a box around the cube. If it cannot be "
+"read, the solid colour is used."
+msgstr ""
+
+#: src/page-cube.vala:54
+msgid "Choose a cubemap image"
+msgstr ""
+
+#: src/page-cube.vala:56 src/page-expo.vala:37
+msgid "Blur"
+msgstr ""
+
+#: src/page-cube.vala:57
+msgid "How far the desktop background is blurred. Expo uses the same blur."
+msgstr ""
+
+#: src/page-cube.vala:58 src/page-cube.vala:79 src/page-expo.vala:30
+#: src/page-expo.vala:39 src/page-wobbly.vala:46
+msgid "px"
+msgstr ""
+
+#: src/page-cube.vala:61
+msgid "Behaviour"
+msgstr ""
+
+#: src/page-cube.vala:62
+msgid "Turn duration"
+msgstr ""
+
+#: src/page-cube.vala:63
+msgid "How long one turn of the cube takes, and zooming it in and out."
+msgstr ""
+
+#: src/page-cube.vala:64
+msgid "Natural turning"
+msgstr ""
+
+#: src/page-cube.vala:65
+msgid ""
+"The cube follows the pointer like a surface being pushed, instead of the "
+"view moving with it."
+msgstr ""
+
+#: src/page-cube.vala:67
+msgid "Advanced: fine tuning"
+msgstr ""
+
+#: src/page-cube.vala:69
+msgid "Zoom out while turning"
+msgstr ""
+
+#: src/page-cube.vala:70
+msgid ""
+"How far the camera moves back while you turn the cube by hand; 0 does not "
+"zoom out."
+msgstr ""
+
+#: src/page-cube.vala:71
+msgid "Scroll zoom step"
+msgstr ""
+
+#: src/page-cube.vala:72
+msgid "How much one step of the scroll wheel zooms the cube."
+msgstr ""
+
+#: src/page-cube.vala:73
+msgid "Horizontal turning speed"
+msgstr ""
+
+#: src/page-cube.vala:74
+msgid "Radians the cube turns for each pixel the pointer moves across."
+msgstr ""
+
+#: src/page-cube.vala:75
+msgid "Vertical tilting speed"
+msgstr ""
+
+#: src/page-cube.vala:76
+msgid "How far the cube tilts for each pixel the pointer moves up or down."
+msgstr ""
+
+#: src/page-cube.vala:77 src/page-wobbly.vala:44
+msgid "Mesh spacing"
+msgstr ""
+
+#: src/page-cube.vala:78
+msgid ""
+"Pixels between the points at which the sides are computed; smaller is "
+"smoother and slower. Bent sides use at least 30 points across."
+msgstr ""
+
+#: src/page-expo.vala:7
+msgid "Expo"
+msgstr ""
+
+#: src/page-expo.vala:8
+msgid ""
+"See every workspace side by side, to pick one or drag windows between them."
+msgstr ""
+
+#: src/page-expo.vala:15
+msgid "Shortcut"
+msgstr ""
+
+#: src/page-expo.vala:17
+msgid "Also available under Keyboard Shortcuts."
+msgstr ""
+
+#: src/page-expo.vala:19
+msgid "Layout"
+msgstr ""
+
+#: src/page-expo.vala:20
+msgid "Arrange workspaces"
+msgstr ""
+
+#: src/page-expo.vala:21
+msgid ""
+"“Like the workspace switcher” keeps the rows and columns you set in MATE's "
+"workspace settings."
+msgstr ""
+
+#: src/page-expo.vala:23
+msgid "Like the workspace switcher"
+msgstr ""
+
+#: src/page-expo.vala:23
+msgid "In a single row"
+msgstr ""
+
+#: src/page-expo.vala:23
+msgid "In a square grid"
+msgstr ""
+
+#: src/page-expo.vala:24
+msgid "Show workspace names"
+msgstr ""
+
+#: src/page-expo.vala:25
+msgid "Writes each workspace's name under it."
+msgstr ""
+
+#: src/page-expo.vala:26
+msgid "Name box opacity"
+msgstr ""
+
+#: src/page-expo.vala:27
+msgid "0 shows only the text; 1 is a solid box."
+msgstr ""
+
+#: src/page-expo.vala:29
+msgid "Name box corner radius"
+msgstr ""
+
+#: src/page-expo.vala:30
+msgid "0 gives square corners."
+msgstr ""
+
+#: src/page-expo.vala:34
+msgid "Behind the workspaces"
+msgstr ""
+
+#: src/page-expo.vala:36
+msgid "Dark grey"
+msgstr ""
+
+#: src/page-expo.vala:38
+msgid ""
+"How far the desktop background is blurred. The desktop cube uses the same "
+"blur."
+msgstr ""
+
+#: src/page-expo.vala:41
+msgid "Dimming"
+msgstr ""
+
+#: src/page-expo.vala:42
+msgid "How much darker the background is drawn: 0 as it is, 1 black."
+msgstr ""
+
+#: src/page-general.vala:7
+msgid "General"
+msgstr ""
+
+#: src/page-general.vala:8
+msgid ""
+"How Polo looks after your session, and how it fits in with other "
+"applications."
+msgstr ""
+
+#: src/page-general.vala:9
+msgid "Desktop"
+msgstr ""
+
+#: src/page-general.vala:14
+msgid "Applications"
+msgstr ""
+
+#: src/page-general.vala:15
+msgid "Keep GTK applications in step with MATE"
+msgstr ""
+
+#: src/page-general.vala:16
+msgid ""
+"Copies your MATE theme, font, mouse and sound settings to the settings that "
+"GTK and desktop portals read on Wayland. The copy is written to your dconf "
+"database, so GNOME sessions see it too."
+msgstr ""
+
+#: src/page-general.vala:18
+msgid "Session"
+msgstr ""
+
+#: src/page-general.vala:19
+msgid "Restore windows at login"
+msgstr ""
+
+#: src/page-general.vala:20
+msgid ""
+"Remembers each window's workspace, position, size and maximised, minimised, "
+"sticky or always-on-top state when you log out, and gives it back to the "
+"first window with the same application and title next time."
+msgstr ""
+
+#: src/page-general.vala:21
+msgid "Screen locker"
+msgstr ""
+
+#: src/page-general.vala:22
+msgid ""
+"The program Polo starts to lock the screen when MATE Screensaver is not "
+"running. It must support ext-session-lock-v1. Leave empty to use none. Press "
+"Enter to apply."
+msgstr ""
+
+#: src/page-general.vala:24
+msgid "Startup phase timeout"
+msgstr ""
+
+#: src/page-general.vala:25
+msgid ""
+"How long Polo waits for the applications of one startup phase before it "
+"starts the next."
+msgstr ""
+
+#: src/page-general.vala:26
+msgid "seconds"
+msgstr ""
+
+#: src/page-general.vala:28
+msgid "Advanced: session components"
+msgstr ""
+
+#: src/page-general.vala:29
+msgid "Trust"
+msgstr ""
+
+#: src/page-general.vala:30
+msgid ""
+"Programs that may use Polo's privileged protocols, such as screen capture, "
+"panels and input methods. Change these only if you know a program needs them."
+msgstr ""
+
+#: src/page-general.vala:31
+msgid "Trusted components"
+msgstr ""
+
+#: src/page-general.vala:32
+msgid ""
+"Desktop IDs or program names, in addition to the components Polo requires."
+msgstr ""
+
+#: src/page-general.vala:33
+msgid "Trusted executables"
+msgstr ""
+
+#: src/page-general.vala:34
+msgid ""
+"Full paths of programs that D-Bus, not Polo, starts, such as the portal "
+"backend and the notification daemon. A program counts only while its file is "
+"owned by root and writable by nobody else."
+msgstr ""
+
+#: src/page-general.vala:35
+msgid "Compatibility"
+msgstr ""
+
+#: src/page-general.vala:36
+msgid "Components that run on X"
+msgstr ""
+
+#: src/page-general.vala:37
+msgid ""
+"Desktop IDs or program names that are started with GDK_BACKEND=x11 because "
+"they call X directly."
+msgstr ""
+
+#: src/page-shortcuts.vala:7
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: src/page-shortcuts.vala:8
+msgid ""
+"Click a shortcut, then press the keys you want. Backspace turns it off, Esc "
+"cancels."
+msgstr ""
+
+#: src/page-shortcuts.vala:9
+msgid "Input"
+msgstr ""
+
+#: src/page-shortcuts.vala:16
+msgid "Shows every workspace side by side."
+msgstr ""
+
+#: src/page-shortcuts.vala:19
+msgid "Opens the cube zoomed out, to turn it by hand."
+msgstr ""
+
+#: src/page-shortcuts.vala:22
+msgid "Turns the cube one workspace to the left."
+msgstr ""
+
+#: src/page-shortcuts.vala:28
+msgid "Hold the modifier keys and drag with the chosen mouse button."
+msgstr ""
+
+#: src/page-shortcuts.vala:30
+msgid ""
+"Shortcuts that are greyed out belong to an effect that is turned off. Turn "
+"it on under Effects."
+msgstr ""
+
+#: src/page-shortcuts.vala:32
+msgid "Screens"
+msgstr ""
+
+#: src/page-shortcuts.vala:34
+msgid ""
+"Opens the display popup when two or more screens are connected. Press it "
+"again while holding the modifier to move on; let go to apply. The laptop's "
+"display key does the same."
+msgstr ""
+
+#: src/page-shortcuts.vala:36
+msgid "Accessibility"
+msgstr ""
+
+#: src/page-shortcuts.vala:38
+msgid "Magnifies every screen, following the pointer and the focused window."
+msgstr ""
+
+#: src/page-shortcuts.vala:40
+msgid ""
+"Raises the magnification by one step, turning the magnifier on if it is off."
+msgstr ""
+
+#: src/page-shortcuts.vala:42
+msgid "Lowers the magnification by one step, down to 1×."
+msgstr ""
+
+#: src/page.vala:67
+msgid "Enabled"
+msgstr ""
+
+#: src/page.vala:81
+msgid "On"
+msgstr ""
+
+#: src/page.vala:81
+msgid "Off"
+msgstr ""
+
+#: src/page.vala:93
+msgid "Advanced"
+msgstr ""
+
+#: src/page.vala:121
+msgid "Restore Defaults"
+msgstr ""
+
+#: src/page.vala:125
+#, c-format
+msgid "Restore the defaults for “%s”?"
+msgstr ""
+
+#: src/page.vala:126
+msgid "Every setting on this page goes back to its original value."
+msgstr ""
+
+#: src/page.vala:127 src/shortcut-widgets.vala:22 src/shortcut-widgets.vala:263
+#: src/widgets.vala:260 src/window.vala:250
+msgid "_Cancel"
+msgstr ""
+
+#: src/page.vala:128
+msgid "_Restore"
+msgstr ""
+
+#: src/page-wobbly.vala:16
+msgid "Wobbly Windows"
+msgstr ""
+
+#: src/page-wobbly.vala:17
+msgid "Windows behave like jelly while you move or resize them."
+msgstr ""
+
+#: src/page-wobbly.vala:23
+msgid "When to wobble"
+msgstr ""
+
+#: src/page-wobbly.vala:24
+msgid "While moving a window"
+msgstr ""
+
+#: src/page-wobbly.vala:25
+msgid "While resizing a window"
+msgstr ""
+
+#: src/page-wobbly.vala:27
+msgid "Feel"
+msgstr ""
+
+#: src/page-wobbly.vala:28
+msgid "Style"
+msgstr ""
+
+#: src/page-wobbly.vala:29
+msgid "From a firm, quick spring to very loose jelly."
+msgstr ""
+
+#: src/page-wobbly.vala:30
+msgid "Default"
+msgstr ""
+
+#: src/page-wobbly.vala:30
+msgid "Subtle"
+msgstr ""
+
+#: src/page-wobbly.vala:30
+msgid "Gentle"
+msgstr ""
+
+#: src/page-wobbly.vala:30
+msgid "Bouncy"
+msgstr ""
+
+#: src/page-wobbly.vala:30
+msgid "Jelly"
+msgstr ""
+
+#: src/page-wobbly.vala:32
+msgid "Advanced: tune the spring"
+msgstr ""
+
+#: src/page-wobbly.vala:33
+msgid "Spring"
+msgstr ""
+
+#: src/page-wobbly.vala:34
+msgid "Untick “Custom” to follow the style chosen above."
+msgstr ""
+
+#: src/page-wobbly.vala:35
+msgid "Stiffness"
+msgstr ""
+
+#: src/page-wobbly.vala:36
+msgid "Higher is a firmer spring that snaps back faster."
+msgstr ""
+
+#: src/page-wobbly.vala:38
+msgid "Drag"
+msgstr ""
+
+#: src/page-wobbly.vala:39
+msgid "Higher keeps the window moving for longer."
+msgstr ""
+
+#: src/page-wobbly.vala:41
+msgid "Movement factor"
+msgstr ""
+
+#: src/page-wobbly.vala:42
+msgid "How strongly the window follows the pointer."
+msgstr ""
+
+#: src/page-wobbly.vala:45
+msgid ""
+"Pixels between the points of the deformation grid; smaller is smoother and "
+"slower."
+msgstr ""
+
+#: src/page-wobbly.vala:48
+msgid "Limits"
+msgstr ""
+
+#: src/page-wobbly.vala:49
+msgid "Where the simulation reacts and where it settles."
+msgstr ""
+
+#: src/page-wobbly.vala:50
+msgid "Minimum velocity"
+msgstr ""
+
+#: src/page-wobbly.vala:51
+msgid "Maximum velocity"
+msgstr ""
+
+#: src/page-wobbly.vala:52
+msgid "Stop velocity"
+msgstr ""
+
+#: src/page-wobbly.vala:53
+msgid "Below this velocity the window can settle."
+msgstr ""
+
+#: src/page-wobbly.vala:54
+msgid "Minimum acceleration"
+msgstr ""
+
+#: src/page-wobbly.vala:55
+msgid "Maximum acceleration"
+msgstr ""
+
+#: src/page-wobbly.vala:56
+msgid "Stop acceleration"
+msgstr ""
+
+#: src/page-wobbly.vala:57
+msgid "Below this acceleration the window can settle."
+msgstr ""
+
+#: src/shortcut-widgets.vala:19
+#, c-format
+msgid "“%s” is already in use"
+msgstr ""
+
+#: src/shortcut-widgets.vala:20
+#, c-format
+msgid ""
+"It is currently assigned to “%s”. If you continue, that shortcut will be "
+"turned off."
+msgstr ""
+
+#: src/shortcut-widgets.vala:23
+msgid "_Reassign"
+msgstr ""
+
+#: src/shortcut-widgets.vala:41
+msgid "Click, then press the new shortcut"
+msgstr ""
+
+#: src/shortcut-widgets.vala:104 src/shortcut-widgets.vala:114
+msgid "Type a shortcut…"
+msgstr ""
+
+#: src/shortcut-widgets.vala:170
+msgid "Add Ctrl, Alt or Super"
+msgstr ""
+
+#: src/shortcut-widgets.vala:197 src/shortcut-widgets.vala:233
+msgid "Turn this shortcut off"
+msgstr ""
+
+#: src/shortcut-widgets.vala:225
+msgid "Click, then hold the modifier keys and click with the mouse button"
+msgstr ""
+
+#: src/shortcut-widgets.vala:258
+msgid "Set Pointer Shortcut"
+msgstr ""
+
+#: src/shortcut-widgets.vala:264
+msgid "_Turn Off"
+msgstr ""
+
+#: src/shortcut-widgets.vala:269
+#, c-format
+msgid ""
+"Hold down the modifier keys (Ctrl, Alt, Super or Shift) and click with the "
+"mouse button you want to use for “%s”."
+msgstr ""
+
+#: src/shortcut-widgets.vala:276
+msgid "Click here while holding the modifier keys"
+msgstr ""
+
+#: src/shortcut-widgets.vala:293
+msgid "Hold at least one modifier key while you click."
+msgstr ""
+
+#: src/shortcut-widgets.vala:297
+msgid "Use the left, middle, right, back or forward button."
+msgstr ""
+
+#: src/ui.vala:65
+msgid "Reset to default"
+msgstr ""
+
+#: src/widgets.vala:113
+msgid "Add"
+msgstr ""
+
+#: src/widgets.vala:116
+msgid "Remove the selected entry"
+msgstr ""
+
+#: src/widgets.vala:225 src/widgets.vala:243
+msgid "Choose image…"
+msgstr ""
+
+#: src/widgets.vala:230
+msgid "Use no image"
+msgstr ""
+
+#: src/widgets.vala:254
+#, c-format
+msgid ""
+"%s\n"
+"\n"
+"This file cannot be read; Polo falls back to a plain background."
+msgstr ""
+
+#: src/widgets.vala:260
+msgid "_Select"
+msgstr ""
+
+#: src/widgets.vala:262
+msgid "Images"
+msgstr ""
+
+#: src/widgets.vala:302
+msgid "Custom"
+msgstr ""
+
+#: src/window.vala:53
+#, c-format
+msgid "%s · shown when its option is selected"
+msgstr ""
+
+#: src/window.vala:85
+msgid "Restore All Defaults…"
+msgstr ""
+
+#: src/window.vala:86
+msgid "About Polo Tweaks"
+msgstr ""
+
+#: src/window.vala:153
+msgid "Search settings"
+msgstr ""
+
+#: src/window.vala:220
+#, c-format
+msgid "Nothing matches “%s”"
+msgstr ""
+
+#: src/window.vala:235
+msgid "Polo's settings are not installed"
+msgstr ""
+
+#: src/window.vala:238
+#, c-format
+msgid ""
+"Polo Tweaks edits Polo's GSettings schemas, but these were not found:\n"
+"\n"
+"%s\n"
+"\n"
+"Install Polo (or run glib-compile-schemas on its data directory) and start "
+"Polo Tweaks again."
+msgstr ""
+
+#: src/window.vala:248
+msgid "Restore every Polo setting?"
+msgstr ""
+
+#: src/window.vala:249
+msgid ""
+"All settings on every page, including keyboard shortcuts, go back to their "
+"original values."
+msgstr ""
+
+#: src/window.vala:251
+msgid "_Restore All"
+msgstr ""
+
+#: src/window.vala:269
+msgid "Settings for Polo's effects, desktop cube, Expo and keyboard shortcuts."
+msgstr ""

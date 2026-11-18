@@ -9,6 +9,7 @@ prefix = get_option('prefix')
 
 add_project_arguments('-DGETTEXT_PACKAGE="@0@"'.format(gettext_package), language: 'c')
 
+subdir('po')
 subdir('src')
 subdir('data')
 subdir('tests')
