@@ -1,0 +1,16 @@
+data/org.mate.PoloTweaks.desktop
+src/accel.vala
+src/conflicts.vala
+src/main.vala
+src/page-animations.vala
+src/page-cube.vala
+src/page-expo.vala
+src/page-general.vala
+src/page-shortcuts.vala
+src/page.vala
+src/page-wobbly.vala
+src/schemas.vala
+src/shortcut-widgets.vala
+src/ui.vala
+src/widgets.vala
+src/window.vala

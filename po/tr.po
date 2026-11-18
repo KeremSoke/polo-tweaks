@@ -1,0 +1,1016 @@
+# Turkish translation of polo-tweaks.
+# Copyright (C) the Polo Tweaks authors
+# This file is distributed under the same license as the polo-tweaks package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: polo-tweaks 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-17 00:00+0000\n"
+"PO-Revision-Date: 2026-11-17 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: data/org.mate.PoloTweaks.desktop:3 src/window.vala:71 src/window.vala:83
+#: src/window.vala:267
+msgid "Polo Tweaks"
+msgstr "Polo İnce Ayarları"
+
+#: data/org.mate.PoloTweaks.desktop:4
+msgid "Compositor Settings"
+msgstr "Görüntü Yönetimi Ayarları"
+
+#: data/org.mate.PoloTweaks.desktop:5
+msgid "Configure Polo's effects, desktop cube, Expo and shortcuts"
+msgstr "Polo'nun görsel özelliklerini, masaüstü küpünü, Expo'yu ve kısayolları yapılandırın"
+
+#: data/org.mate.PoloTweaks.desktop:10
+msgid "polo;effects;cube;expo;wobbly;animations;shortcuts;compositor;"
+msgstr "polo;efektler;küp;expo;sallanan;animasyonlar;kısayollar;birleştirici;"
+
+#: src/accel.vala:211 src/accel.vala:293
+msgid "Disabled"
+msgstr "Devre dışı"
+
+#: src/accel.vala:214
+#, c-format
+msgid "Key %s"
+msgstr "%s tuşu"
+
+#: src/accel.vala:223
+#, c-format
+msgid "Keypad %s"
+msgstr "Sayısal tuş takımı %s"
+
+#: src/accel.vala:273
+msgid "Left button"
+msgstr "Sol düğme"
+
+#: src/accel.vala:275
+msgid "Middle button"
+msgstr "Orta düğme"
+
+#: src/accel.vala:277
+msgid "Right button"
+msgstr "Sağ düğme"
+
+#: src/accel.vala:279
+msgid "Back button"
+msgstr "Geri düğmesi"
+
+#: src/accel.vala:281
+msgid "Forward button"
+msgstr "İleri düğmesi"
+
+#: src/accel.vala:283
+#, c-format
+msgid "Button %u"
+msgstr "%u. düğme"
+
+#: src/conflicts.vala:32 src/page-expo.vala:16 src/page-shortcuts.vala:15
+msgid "Show Expo"
+msgstr "Expo'yu göster"
+
+#: src/conflicts.vala:33 src/page-shortcuts.vala:33
+msgid "Choose how the screens are used"
+msgstr "Ekranların nasıl kullanılacağını seç"
+
+#: src/conflicts.vala:34 src/page-shortcuts.vala:18
+msgid "Show the desktop cube"
+msgstr "Masaüstü küpünü göster"
+
+#: src/conflicts.vala:35 src/page-shortcuts.vala:21
+msgid "Turn the cube left"
+msgstr "Küpü sola çevir"
+
+#: src/conflicts.vala:36 src/page-shortcuts.vala:24
+msgid "Turn the cube right"
+msgstr "Küpü sağa çevir"
+
+#: src/conflicts.vala:37 src/page-shortcuts.vala:27
+msgid "Turn the cube with the mouse"
+msgstr "Küpü fareyle çevir"
+
+#: src/conflicts.vala:38 src/page-shortcuts.vala:37
+msgid "Turn the magnifier on or off"
+msgstr "Büyüteci aç veya kapat"
+
+#: src/conflicts.vala:39 src/page-shortcuts.vala:39
+msgid "Magnify more"
+msgstr "Daha çok büyüt"
+
+#: src/conflicts.vala:40 src/page-shortcuts.vala:41
+msgid "Magnify less"
+msgstr "Daha az büyüt"
+
+#: src/conflicts.vala:47
+#, c-format
+msgid "%s (window manager)"
+msgstr "%s (pencere yöneticisi)"
+
+#: src/page-animations.vala:7
+msgid "Window Animations"
+msgstr "Pencere Animasyonları"
+
+#: src/page-animations.vala:8
+msgid "How windows appear, disappear and go into the taskbar."
+msgstr "Pencerelerin nasıl göründüğü, kaybolduğu ve görev çubuğuna indirildiği."
+
+#: src/page-animations.vala:9 src/page-cube.vala:9 src/page-expo.vala:9
+#: src/page-shortcuts.vala:14 src/page-wobbly.vala:18
+msgid "Effects"
+msgstr "Efektler"
+
+#: src/page-animations.vala:14 src/page-animations.vala:26
+msgid "None"
+msgstr "Yok"
+
+#: src/page-animations.vala:14 src/page-animations.vala:26
+msgid "Fade"
+msgstr "Solma"
+
+#: src/page-animations.vala:14 src/page-animations.vala:26
+msgid "Zoom"
+msgstr "Yakınlaşma"
+
+#: src/page-animations.vala:14 src/page-animations.vala:42
+msgid "Zap"
+msgstr "Çakıp Sönme"
+
+#: src/page-animations.vala:14 src/page-animations.vala:45
+msgid "Spin"
+msgstr "Dönme"
+
+#: src/page-animations.vala:16
+msgid "Animation"
+msgstr "Animasyon"
+
+#: src/page-animations.vala:17
+msgid "When a window opens"
+msgstr "Bir pencere açıldığında"
+
+#: src/page-animations.vala:18
+msgid "Fade, Zoom (grows from a third of its size), Zap (fades in, then stretches across and down) or Spin (turns in from a point)."
+msgstr "Solma, Yakınlaşma (boyutunun üçte birinden büyür), Çakıp Sönme (belirir, sonra yana ve aşağıya uzar) veya Dönme (bir noktadan dönerek gelir)."
+
+#: src/page-animations.vala:20
+msgid "When a window closes"
+msgstr "Bir pencere kapandığında"
+
+#: src/page-animations.vala:21
+msgid "The opening animations, played backwards."
+msgstr "Açılış animasyonları, tersten oynatılır."
+
+#: src/page-animations.vala:23
+msgid "When a window is minimised or restored"
+msgstr "Bir pencere küçültüldüğünde veya geri yüklendiğinde"
+
+#: src/page-animations.vala:24
+msgid "Squeezimize and Magic Lamp need the GL renderer; without it they fade instead."
+msgstr "Sıkıştırıverme ve Sihirli Lamba GL oluşturucusunu gerektirir; o olmadan bunlar yerine solma kullanılır."
+
+#: src/page-animations.vala:26 src/page-animations.vala:53
+msgid "Squeezimize"
+msgstr "Sıkıştırıverme"
+
+#: src/page-animations.vala:26 src/page-animations.vala:55
+msgid "Magic Lamp"
+msgstr "Sihirli Lamba"
+
+#. Timing rows appear only for the animations in use.
+#: src/page-animations.vala:29
+msgid "Timing"
+msgstr "Zamanlama"
+
+#: src/page-animations.vala:32
+msgid "Fade and zoom"
+msgstr "Solma ve yakınlaşma"
+
+#: src/page-animations.vala:32 src/page-animations.vala:42
+#: src/page-animations.vala:45 src/page-animations.vala:53
+#: src/page-animations.vala:55 src/page-cube.vala:63
+msgid "ms"
+msgstr "ms"
+
+#: src/page-animations.vala:48
+msgid "Spin turns"
+msgstr "Dönme turu"
+
+#: src/page-animations.vala:49
+msgid "How many full turns the window makes; a negative number turns the other way."
+msgstr "Pencerenin kaç tam tur attığı; negatif bir sayı ters yöne döndürür."
+
+#: src/page-animations.vala:60
+msgid "Nothing to time"
+msgstr "Zamanlanacak bir şey yok"
+
+#: src/page-animations.vala:60
+msgid "All three animations are set to None."
+msgstr "Üç animasyonun hepsi Yok olarak ayarlı."
+
+#: src/page-animations.vala:70
+msgid "Advanced: older settings"
+msgstr "Gelişmiş: eski ayarlar"
+
+#: src/page-animations.vala:72
+msgid "Minimise with Magic Lamp"
+msgstr "Sihirli Lamba ile küçült"
+
+#: src/page-animations.vala:73
+msgid "A switch from before the minimise animation could be chosen. It only has an effect while the minimise animation is None."
+msgstr "Küçültme animasyonu seçilebilmeden önceki bir anahtar. Yalnızca küçültme animasyonu Yok iken etkilidir."
+
+#: src/page-cube.vala:7
+msgid "Desktop Cube"
+msgstr "Masaüstü Küpü"
+
+#: src/page-cube.vala:8
+msgid "Switch workspaces by turning a 3D cube."
+msgstr "3B bir küpü çevirerek çalışma alanları arasında geçiş yapın."
+
+#: src/page-cube.vala:15
+msgid "The cube needs Polo's GL renderer. Without it, workspaces switch as if the cube were off."
+msgstr "Küp, Polo'nun GL oluşturucusunu gerektirir. GL'siz çalışma alanları küp kapalıymış gibi değişir."
+
+#: src/page-cube.vala:18
+msgid "Shortcuts"
+msgstr "Kısayollar"
+
+#: src/page-cube.vala:19
+msgid "These are the same shortcuts you find under Keyboard Shortcuts."
+msgstr "Bunlar Klavye Kısayolları altında bulduğunuz kısayolların aynısıdır."
+
+#: src/page-cube.vala:20
+msgid "Show the cube"
+msgstr "Küpü göster"
+
+#: src/page-cube.vala:21
+msgid "Opens the cube zoomed out, so you can turn it by hand and pick the workspace in front."
+msgstr "Küpü uzaklaştırılmış olarak açar; böylece elle çevirip öndeki çalışma alanını seçebilirsiniz."
+
+#: src/page-cube.vala:22
+msgid "Turn left"
+msgstr "Sola çevir"
+
+#: src/page-cube.vala:23
+msgid "Turns the cube one workspace to the left. The window manager's “switch to workspace left” shortcut also turns the cube."
+msgstr "Küpü bir çalışma alanı sola çevirir. Pencere yöneticisinin “sol çalışma alanına geç” kısayolu da küpü çevirir."
+
+#: src/page-cube.vala:24
+msgid "Turn right"
+msgstr "Sağa çevir"
+
+#: src/page-cube.vala:25 src/page-shortcuts.vala:25
+msgid "Turns the cube one workspace to the right."
+msgstr "Küpü bir çalışma alanı sağa çevirir."
+
+#: src/page-cube.vala:26
+msgid "Turn with the mouse"
+msgstr "Fareyle çevir"
+
+#: src/page-cube.vala:27
+msgid "Hold the modifier keys and drag. Letting go lands on the workspace in front. Applications do not receive that click."
+msgstr "Değiştirici tuşları basılı tutup sürükleyin. Bıraktığınızda öndeki çalışma alanında durur. Uygulamalar bu tıklamayı almaz."
+
+#: src/page-cube.vala:29
+msgid "Appearance"
+msgstr "Görünüm"
+
+#: src/page-cube.vala:30
+msgid "Shape of the sides"
+msgstr "Yüzlerin şekli"
+
+#: src/page-cube.vala:31
+msgid "Bends the sides while you turn the cube by hand."
+msgstr "Küpü elle çevirirken yüzleri büker."
+
+#: src/page-cube.vala:33
+msgid "Flat"
+msgstr "Düz"
+
+#: src/page-cube.vala:33
+msgid "Cylinder"
+msgstr "Silindir"
+
+#: src/page-cube.vala:33
+msgid "Star (corners pulled out)"
+msgstr "Yıldız (köşeler dışarı çekilmiş)"
+
+#: src/page-cube.vala:34
+msgid "Shade the sides"
+msgstr "Yüzleri gölgele"
+
+#: src/page-cube.vala:35
+msgid "Darkens each side by how it faces the light in front of the screen."
+msgstr "Küpün her yüzünü ekranın önündeki ışığa göre karartır."
+
+#: src/page-cube.vala:37 src/page-expo.vala:33
+msgid "Background"
+msgstr "Arka plan"
+
+#: src/page-cube.vala:38
+msgid "Behind the cube"
+msgstr "Küpün arkası"
+
+#: src/page-cube.vala:40
+msgid "Solid colour"
+msgstr "Düz renk"
+
+#: src/page-cube.vala:40 src/page-expo.vala:36
+msgid "Desktop background"
+msgstr "Masaüstü arka planı"
+
+#: src/page-cube.vala:40 src/page-expo.vala:36
+msgid "Blurred desktop background"
+msgstr "Bulanık masaüstü arka planı"
+
+#: src/page-cube.vala:41
+msgid "Skydome (panorama image)"
+msgstr "Gök kubbe (panorama görüntüsü)"
+
+#: src/page-cube.vala:41
+msgid "Cubemap (box image)"
+msgstr "Küp haritası (kutu görüntüsü)"
+
+#: src/page-cube.vala:43
+msgid "Colour"
+msgstr "Renk"
+
+#: src/page-cube.vala:45
+msgid "Panorama image"
+msgstr "Panorama görüntüsü"
+
+#: src/page-cube.vala:46
+msgid "A wide image wrapped around the cube on a sphere. If it cannot be read, the solid colour is used."
+msgstr "Küpün çevresine bir küre üzerinde sarılan geniş bir görüntü. Okunamazsa düz renk kullanılır."
+
+#: src/page-cube.vala:47
+msgid "Choose a panorama image"
+msgstr "Bir panorama görüntüsü seçin"
+
+#: src/page-cube.vala:49
+msgid "Mirror the image"
+msgstr "Görüntüyü yansıt"
+
+#: src/page-cube.vala:50
+msgid "Shows the image twice around the sphere, the second time flipped, so its ends meet without a seam."
+msgstr "Görüntüyü küre çevresinde iki kez, ikincisini ters çevirerek gösterir; böylece uçları dikişsiz birleşir."
+
+#: src/page-cube.vala:52
+msgid "Cubemap image"
+msgstr "Küp haritası görüntüsü"
+
+#: src/page-cube.vala:53
+msgid "An image shown on all six faces of a box around the cube. If it cannot be read, the solid colour is used."
+msgstr "Küpün çevresindeki bir kutunun altı yüzünde gösterilen bir görüntü. Okunamazsa düz renk kullanılır."
+
+#: src/page-cube.vala:54
+msgid "Choose a cubemap image"
+msgstr "Bir küp haritası görüntüsü seçin"
+
+#: src/page-cube.vala:56 src/page-expo.vala:37
+msgid "Blur"
+msgstr "Bulanıklık"
+
+#: src/page-cube.vala:57
+msgid "How far the desktop background is blurred. Expo uses the same blur."
+msgstr "Masaüstü arka planının ne kadar bulanıklaştırılacağı. Expo da aynı bulanıklığı kullanır."
+
+#: src/page-cube.vala:58 src/page-cube.vala:79 src/page-expo.vala:30
+#: src/page-expo.vala:39 src/page-wobbly.vala:46
+msgid "px"
+msgstr "px"
+
+#: src/page-cube.vala:61
+msgid "Behaviour"
+msgstr "Davranış"
+
+#: src/page-cube.vala:62
+msgid "Turn duration"
+msgstr "Dönüş süresi"
+
+#: src/page-cube.vala:63
+msgid "How long one turn of the cube takes, and zooming it in and out."
+msgstr "Küpün bir dönüşünün ve yakınlaştırılıp uzaklaştırılmasının ne kadar süreceği."
+
+#: src/page-cube.vala:64
+msgid "Natural turning"
+msgstr "Doğal döndürme"
+
+#: src/page-cube.vala:65
+msgid "The cube follows the pointer like a surface being pushed, instead of the view moving with it."
+msgstr "Küp, görünümün onunla birlikte hareket etmesi yerine itilen bir yüzey gibi imleci izler."
+
+#: src/page-cube.vala:67
+msgid "Advanced: fine tuning"
+msgstr "Gelişmiş: ince ayar"
+
+#: src/page-cube.vala:69
+msgid "Zoom out while turning"
+msgstr "Dönerken uzaklaş"
+
+#: src/page-cube.vala:70
+msgid "How far the camera moves back while you turn the cube by hand; 0 does not zoom out."
+msgstr "Küpü elle çevirirken kameranın ne kadar geri gideceği; 0 uzaklaştırmaz."
+
+#: src/page-cube.vala:71
+msgid "Scroll zoom step"
+msgstr "Kaydırma yakınlaştırma adımı"
+
+#: src/page-cube.vala:72
+msgid "How much one step of the scroll wheel zooms the cube."
+msgstr "Kaydırma tekerleğinin bir adımının küpü ne kadar yakınlaştıracağı."
+
+#: src/page-cube.vala:73
+msgid "Horizontal turning speed"
+msgstr "Yatay dönme hızı"
+
+#: src/page-cube.vala:74
+msgid "Radians the cube turns for each pixel the pointer moves across."
+msgstr "İmleç yatayda her piksel hareket ettiğinde küpün döndüğü radyan."
+
+#: src/page-cube.vala:75
+msgid "Vertical tilting speed"
+msgstr "Dikey eğilme hızı"
+
+#: src/page-cube.vala:76
+msgid "How far the cube tilts for each pixel the pointer moves up or down."
+msgstr "İmleç yukarı veya aşağı her piksel hareket ettiğinde küpün ne kadar eğileceği."
+
+#: src/page-cube.vala:77 src/page-wobbly.vala:44
+msgid "Mesh spacing"
+msgstr "Ağ aralığı"
+
+#: src/page-cube.vala:78
+msgid "Pixels between the points at which the sides are computed; smaller is smoother and slower. Bent sides use at least 30 points across."
+msgstr "Yüzlerin hesaplandığı noktalar arasındaki piksel sayısı; küçüldükçe daha düzgün ve daha yavaş olur. Bükülmüş yüzler en az 30 nokta kullanır."
+
+#: src/page-expo.vala:7
+msgid "Expo"
+msgstr "Expo"
+
+#: src/page-expo.vala:8
+msgid "See every workspace side by side, to pick one or drag windows between them."
+msgstr "Her çalışma alanını yan yana görün; birini seçin veya pencereleri aralarında sürükleyin."
+
+#: src/page-expo.vala:15
+msgid "Shortcut"
+msgstr "Kısayol"
+
+#: src/page-expo.vala:17
+msgid "Also available under Keyboard Shortcuts."
+msgstr "Klavye Kısayolları altında da bulunur."
+
+#: src/page-expo.vala:19
+msgid "Layout"
+msgstr "Düzen"
+
+#: src/page-expo.vala:20
+msgid "Arrange workspaces"
+msgstr "Çalışma alanlarını diz"
+
+#: src/page-expo.vala:21
+msgid "“Like the workspace switcher” keeps the rows and columns you set in MATE's workspace settings."
+msgstr "“Çalışma alanı değiştirici gibi”, MATE'in çalışma alanı ayarlarında belirlediğiniz satır ve sütunları korur."
+
+#: src/page-expo.vala:23
+msgid "Like the workspace switcher"
+msgstr "Çalışma alanı değiştirici gibi"
+
+#: src/page-expo.vala:23
+msgid "In a single row"
+msgstr "Tek satırda"
+
+#: src/page-expo.vala:23
+msgid "In a square grid"
+msgstr "Kare ızgarada"
+
+#: src/page-expo.vala:24
+msgid "Show workspace names"
+msgstr "Çalışma alanı adlarını göster"
+
+#: src/page-expo.vala:25
+msgid "Writes each workspace's name under it."
+msgstr "Her çalışma alanının adını altına yazar."
+
+#: src/page-expo.vala:26
+msgid "Name box opacity"
+msgstr "Ad kutusu opaklığı"
+
+#: src/page-expo.vala:27
+msgid "0 shows only the text; 1 is a solid box."
+msgstr "0 yalnızca metni gösterir; 1 dolu bir kutudur."
+
+#: src/page-expo.vala:29
+msgid "Name box corner radius"
+msgstr "Ad kutusu köşe yarıçapı"
+
+#: src/page-expo.vala:30
+msgid "0 gives square corners."
+msgstr "0 köşeleri keskin yapar."
+
+#: src/page-expo.vala:34
+msgid "Behind the workspaces"
+msgstr "Çalışma alanlarının arkası"
+
+#: src/page-expo.vala:36
+msgid "Dark grey"
+msgstr "Koyu gri"
+
+#: src/page-expo.vala:38
+msgid "How far the desktop background is blurred. The desktop cube uses the same blur."
+msgstr "Masaüstü arka planının ne kadar bulanıklaştırılacağı. Masaüstü küpü de aynı bulanıklığı kullanır."
+
+#: src/page-expo.vala:41
+msgid "Dimming"
+msgstr "Karartma"
+
+#: src/page-expo.vala:42
+msgid "How much darker the background is drawn: 0 as it is, 1 black."
+msgstr "Arka planın ne kadar koyu çizileceği: 0 olduğu gibi, 1 siyah."
+
+#: src/page-general.vala:7
+msgid "General"
+msgstr "Genel"
+
+#: src/page-general.vala:8
+msgid "How Polo looks after your session, and how it fits in with other applications."
+msgstr "Polo'nun oturumunuza nasıl baktığı ve diğer uygulamalarla nasıl uyum sağladığı."
+
+#: src/page-general.vala:9
+msgid "Desktop"
+msgstr "Masaüstü"
+
+#: src/page-general.vala:14
+msgid "Applications"
+msgstr "Uygulamalar"
+
+#: src/page-general.vala:15
+msgid "Keep GTK applications in step with MATE"
+msgstr "GTK uygulamalarını MATE ile uyumlu tut"
+
+#: src/page-general.vala:16
+msgid "Copies your MATE theme, font, mouse and sound settings to the settings that GTK and desktop portals read on Wayland. The copy is written to your dconf database, so GNOME sessions see it too."
+msgstr "MATE temanızı, yazı tipinizi, fare ve ses ayarlarınızı GTK'nın ve masaüstü portallarının Wayland'de okuduğu ayarlara kopyalar. Kopya dconf veritabanınıza yazılır; böylece GNOME oturumları da görür."
+
+#: src/page-general.vala:18
+msgid "Session"
+msgstr "Oturum"
+
+#: src/page-general.vala:19
+msgid "Restore windows at login"
+msgstr "Oturum açılışında pencereleri geri yükle"
+
+#: src/page-general.vala:20
+msgid "Remembers each window's workspace, position, size and maximised, minimised, sticky or always-on-top state when you log out, and gives it back to the first window with the same application and title next time."
+msgstr "Oturumu kapattığınızda her pencerenin çalışma alanını, konumunu, boyutunu ve büyütülmüş, küçültülmüş, yapışkan veya her zaman üstte durumunu hatırlar; bir sonraki sefer aynı uygulama ve başlığa sahip ilk pencereye geri verir."
+
+#: src/page-general.vala:21
+msgid "Screen locker"
+msgstr "Ekran kilidi"
+
+#: src/page-general.vala:22
+msgid "The program Polo starts to lock the screen when MATE Screensaver is not running. It must support ext-session-lock-v1. Leave empty to use none. Press Enter to apply."
+msgstr "MATE Ekran Koruyucu çalışmıyorken Polo'nun ekranı kilitlemek için başlattığı program. ext-session-lock-v1 desteklemelidir. Hiçbirini kullanmamak için boş bırakın. Uygulamak için Enter'a basın."
+
+#: src/page-general.vala:24
+msgid "Startup phase timeout"
+msgstr "Başlangıç aşaması zaman aşımı"
+
+#: src/page-general.vala:25
+msgid "How long Polo waits for the applications of one startup phase before it starts the next."
+msgstr "Polo'nun bir sonrakini başlatmadan önce bir başlangıç aşamasının uygulamalarını ne kadar bekleyeceği."
+
+#: src/page-general.vala:26
+msgid "seconds"
+msgstr "saniye"
+
+#: src/page-general.vala:28
+msgid "Advanced: session components"
+msgstr "Gelişmiş: oturum bileşenleri"
+
+#: src/page-general.vala:29
+msgid "Trust"
+msgstr "Güven"
+
+#: src/page-general.vala:30
+msgid "Programs that may use Polo's privileged protocols, such as screen capture, panels and input methods. Change these only if you know a program needs them."
+msgstr "Polo'nun ekran yakalama, paneller ve girdi yöntemleri gibi ayrıcalıklı protokollerini kullanabilen programlar. Bunları yalnızca bir programın gerektirdiğini biliyorsanız değiştirin."
+
+#: src/page-general.vala:31
+msgid "Trusted components"
+msgstr "Güvenilen bileşenler"
+
+#: src/page-general.vala:32
+msgid "Desktop IDs or program names, in addition to the components Polo requires."
+msgstr "Polo'nun gerektirdiği bileşenlere ek olarak masaüstü kimlikleri veya program adları."
+
+#: src/page-general.vala:33
+msgid "Trusted executables"
+msgstr "Güvenilen yürütülebilir dosyalar"
+
+#: src/page-general.vala:34
+msgid "Full paths of programs that D-Bus, not Polo, starts, such as the portal backend and the notification daemon. A program counts only while its file is owned by root and writable by nobody else."
+msgstr "Portal arka ucu ve bildirim hizmeti gibi Polo'nun değil D-Bus'ın başlattığı programların tam yolları. Bir program yalnızca dosyasının sahibi root ve başka kimse yazamıyorsa geçerli sayılır."
+
+#: src/page-general.vala:35
+msgid "Compatibility"
+msgstr "Uyumluluk"
+
+#: src/page-general.vala:36
+msgid "Components that run on X"
+msgstr "X üzerinde çalışan bileşenler"
+
+#: src/page-general.vala:37
+msgid "Desktop IDs or program names that are started with GDK_BACKEND=x11 because they call X directly."
+msgstr "X'i doğrudan çağırdıkları için GDK_BACKEND=x11 ile başlatılan masaüstü kimlikleri veya program adları."
+
+#: src/page-shortcuts.vala:7
+msgid "Keyboard Shortcuts"
+msgstr "Klavye Kısayolları"
+
+#: src/page-shortcuts.vala:8
+msgid "Click a shortcut, then press the keys you want. Backspace turns it off, Esc cancels."
+msgstr "Bir kısayola tıklayın, ardından istediğiniz tuşlara basın. Geri Silme kapatır, Esc iptal eder."
+
+#: src/page-shortcuts.vala:9
+msgid "Input"
+msgstr "Girdi"
+
+#: src/page-shortcuts.vala:16
+msgid "Shows every workspace side by side."
+msgstr "Her çalışma alanını yan yana gösterir."
+
+#: src/page-shortcuts.vala:19
+msgid "Opens the cube zoomed out, to turn it by hand."
+msgstr "Küpü elle çevirmek için uzaklaştırılmış olarak açar."
+
+#: src/page-shortcuts.vala:22
+msgid "Turns the cube one workspace to the left."
+msgstr "Küpü bir çalışma alanı sola çevirir."
+
+#: src/page-shortcuts.vala:28
+msgid "Hold the modifier keys and drag with the chosen mouse button."
+msgstr "Değiştirici tuşları basılı tutup seçilen fare düğmesiyle sürükleyin."
+
+#: src/page-shortcuts.vala:30
+msgid "Shortcuts that are greyed out belong to an effect that is turned off. Turn it on under Effects."
+msgstr "Gri görünen kısayollar kapalı bir efekte aittir. Efektler altından açın."
+
+#: src/page-shortcuts.vala:32
+msgid "Screens"
+msgstr "Ekranlar"
+
+#: src/page-shortcuts.vala:34
+msgid "Opens the display popup when two or more screens are connected. Press it again while holding the modifier to move on; let go to apply. The laptop's display key does the same."
+msgstr "İki veya daha fazla ekran bağlıyken ekran açılır penceresini açar. Geçmek için değiştirici tuşu basılı tutarken tekrar basın; uygulamak için bırakın. Dizüstü bilgisayarın ekran tuşu da aynısını yapar."
+
+#: src/page-shortcuts.vala:36
+msgid "Accessibility"
+msgstr "Erişilebilirlik"
+
+#: src/page-shortcuts.vala:38
+msgid "Magnifies every screen, following the pointer and the focused window."
+msgstr "İmleci ve odaktaki pencereyi izleyerek her ekranı büyütür."
+
+#: src/page-shortcuts.vala:40
+msgid "Raises the magnification by one step, turning the magnifier on if it is off."
+msgstr "Büyütmeyi bir adım artırır; kapalıysa büyüteci açar."
+
+#: src/page-shortcuts.vala:42
+msgid "Lowers the magnification by one step, down to 1×."
+msgstr "Büyütmeyi bir adım azaltır, en fazla 1×'e kadar."
+
+#: src/page.vala:67
+msgid "Enabled"
+msgstr "Etkin"
+
+#: src/page.vala:81
+msgid "On"
+msgstr "Açık"
+
+#: src/page.vala:81
+msgid "Off"
+msgstr "Kapalı"
+
+#: src/page.vala:93
+msgid "Advanced"
+msgstr "Gelişmiş"
+
+#: src/page.vala:121
+msgid "Restore Defaults"
+msgstr "Varsayılanları Geri Yükle"
+
+#: src/page.vala:125
+#, c-format
+msgid "Restore the defaults for “%s”?"
+msgstr "“%s” için varsayılanlar geri yüklensin mi?"
+
+#: src/page.vala:126
+msgid "Every setting on this page goes back to its original value."
+msgstr "Bu sayfadaki her ayar özgün değerine döner."
+
+#: src/page.vala:127 src/shortcut-widgets.vala:22 src/shortcut-widgets.vala:263
+#: src/widgets.vala:260 src/window.vala:250
+msgid "_Cancel"
+msgstr "_İptal"
+
+#: src/page.vala:128
+msgid "_Restore"
+msgstr "_Geri Yükle"
+
+#: src/page-wobbly.vala:16
+msgid "Wobbly Windows"
+msgstr "Sallanan Pencereler"
+
+#: src/page-wobbly.vala:17
+msgid "Windows behave like jelly while you move or resize them."
+msgstr "Pencereleri taşırken veya yeniden boyutlandırırken jöle gibi davranır."
+
+#: src/page-wobbly.vala:23
+msgid "When to wobble"
+msgstr "Ne zaman sallanacağı"
+
+#: src/page-wobbly.vala:24
+msgid "While moving a window"
+msgstr "Bir pencereyi taşırken"
+
+#: src/page-wobbly.vala:25
+msgid "While resizing a window"
+msgstr "Bir pencereyi yeniden boyutlandırırken"
+
+#: src/page-wobbly.vala:27
+msgid "Feel"
+msgstr "Hissiyat"
+
+#: src/page-wobbly.vala:28
+msgid "Style"
+msgstr "Stil"
+
+#: src/page-wobbly.vala:29
+msgid "From a firm, quick spring to very loose jelly."
+msgstr "Sert ve hızlı bir yaydan çok gevşek bir jöleye kadar..."
+
+#: src/page-wobbly.vala:30
+msgid "Default"
+msgstr "Varsayılan"
+
+#: src/page-wobbly.vala:30
+msgid "Subtle"
+msgstr "Çok Hafif"
+
+#: src/page-wobbly.vala:30
+msgid "Gentle"
+msgstr "Yumuşak"
+
+#: src/page-wobbly.vala:30
+msgid "Bouncy"
+msgstr "Oynak"
+
+#: src/page-wobbly.vala:30
+msgid "Jelly"
+msgstr "Jölemsi"
+
+#: src/page-wobbly.vala:32
+msgid "Advanced: tune the spring"
+msgstr "Gelişmiş: yayı ayarla"
+
+#: src/page-wobbly.vala:33
+msgid "Spring"
+msgstr "Yay"
+
+#: src/page-wobbly.vala:34
+msgid "Untick “Custom” to follow the style chosen above."
+msgstr "Yukarıda seçilen stili izlemek için “Özel” işaretini kaldırın."
+
+#: src/page-wobbly.vala:35
+msgid "Stiffness"
+msgstr "Sertlik"
+
+#: src/page-wobbly.vala:36
+msgid "Higher is a firmer spring that snaps back faster."
+msgstr "Yüksek değer, daha hızlı geri sıçrayan daha sert bir yaydır."
+
+#: src/page-wobbly.vala:38
+msgid "Drag"
+msgstr "Sürtünme"
+
+#: src/page-wobbly.vala:39
+msgid "Higher keeps the window moving for longer."
+msgstr "Yüksek değer pencerenin daha uzun süre hareket etmesini sağlar."
+
+#: src/page-wobbly.vala:41
+msgid "Movement factor"
+msgstr "Hareket çarpanı"
+
+#: src/page-wobbly.vala:42
+msgid "How strongly the window follows the pointer."
+msgstr "Pencerenin imleci ne kadar güçlü izleyeceği."
+
+#: src/page-wobbly.vala:45
+msgid "Pixels between the points of the deformation grid; smaller is smoother and slower."
+msgstr "Deformasyon ızgarasının noktaları arasındaki piksel sayısı; küçüldükçe daha düzgün ve daha yavaş olur."
+
+#: src/page-wobbly.vala:48
+msgid "Limits"
+msgstr "Sınırlar"
+
+#: src/page-wobbly.vala:49
+msgid "Where the simulation reacts and where it settles."
+msgstr "Benzetimin nerede tepki verdiği ve nerede durulduğu."
+
+#: src/page-wobbly.vala:50
+msgid "Minimum velocity"
+msgstr "En düşük hız"
+
+#: src/page-wobbly.vala:51
+msgid "Maximum velocity"
+msgstr "En yüksek hız"
+
+#: src/page-wobbly.vala:52
+msgid "Stop velocity"
+msgstr "Durma hızı"
+
+#: src/page-wobbly.vala:53
+msgid "Below this velocity the window can settle."
+msgstr "Bu hızın altında pencere durulabilir."
+
+#: src/page-wobbly.vala:54
+msgid "Minimum acceleration"
+msgstr "En düşük ivme"
+
+#: src/page-wobbly.vala:55
+msgid "Maximum acceleration"
+msgstr "En yüksek ivme"
+
+#: src/page-wobbly.vala:56
+msgid "Stop acceleration"
+msgstr "Durma ivmesi"
+
+#: src/page-wobbly.vala:57
+msgid "Below this acceleration the window can settle."
+msgstr "Bu ivmenin altında pencere durulabilir."
+
+#: src/shortcut-widgets.vala:19
+#, c-format
+msgid "“%s” is already in use"
+msgstr "“%s” zaten kullanımda"
+
+#: src/shortcut-widgets.vala:20
+#, c-format
+msgid "It is currently assigned to “%s”. If you continue, that shortcut will be turned off."
+msgstr "Şu anda “%s” için atanmış. Devam ederseniz o kısayol kapatılacak."
+
+#: src/shortcut-widgets.vala:23
+msgid "_Reassign"
+msgstr "_Yeniden Ata"
+
+#: src/shortcut-widgets.vala:41
+msgid "Click, then press the new shortcut"
+msgstr "Tıklayın, ardından yeni kısayola basın"
+
+#: src/shortcut-widgets.vala:104 src/shortcut-widgets.vala:114
+msgid "Type a shortcut…"
+msgstr "Bir kısayol yazın…"
+
+#: src/shortcut-widgets.vala:170
+msgid "Add Ctrl, Alt or Super"
+msgstr "Ctrl, Alt veya Super ekleyin"
+
+#: src/shortcut-widgets.vala:197 src/shortcut-widgets.vala:233
+msgid "Turn this shortcut off"
+msgstr "Bu kısayolu kapat"
+
+#: src/shortcut-widgets.vala:225
+msgid "Click, then hold the modifier keys and click with the mouse button"
+msgstr "Tıklayın, ardından değiştirici tuşları basılı tutup fare düğmesiyle tıklayın"
+
+#: src/shortcut-widgets.vala:258
+msgid "Set Pointer Shortcut"
+msgstr "İmleç Kısayolunu Ayarla"
+
+#: src/shortcut-widgets.vala:264
+msgid "_Turn Off"
+msgstr "_Kapat"
+
+#: src/shortcut-widgets.vala:269
+#, c-format
+msgid "Hold down the modifier keys (Ctrl, Alt, Super or Shift) and click with the mouse button you want to use for “%s”."
+msgstr "Değiştirici tuşları (Ctrl, Alt, Super veya Shift) basılı tutun ve “%s” için kullanmak istediğiniz fare düğmesiyle tıklayın."
+
+#: src/shortcut-widgets.vala:276
+msgid "Click here while holding the modifier keys"
+msgstr "Değiştirici tuşları basılı tutarken buraya tıklayın"
+
+#: src/shortcut-widgets.vala:293
+msgid "Hold at least one modifier key while you click."
+msgstr "Tıklarken en az bir değiştirici tuşu basılı tutun."
+
+#: src/shortcut-widgets.vala:297
+msgid "Use the left, middle, right, back or forward button."
+msgstr "Sol, orta, sağ, geri veya ileri düğmesini kullanın."
+
+#: src/ui.vala:65
+msgid "Reset to default"
+msgstr "Varsayılana sıfırla"
+
+#: src/widgets.vala:113
+msgid "Add"
+msgstr "Ekle"
+
+#: src/widgets.vala:116
+msgid "Remove the selected entry"
+msgstr "Seçili girdiyi kaldır"
+
+#: src/widgets.vala:225 src/widgets.vala:243
+msgid "Choose image…"
+msgstr "Görüntü seç…"
+
+#: src/widgets.vala:230
+msgid "Use no image"
+msgstr "Görüntü kullanma"
+
+#: src/widgets.vala:254
+#, c-format
+msgid ""
+"%s\n"
+"\n"
+"This file cannot be read; Polo falls back to a plain background."
+msgstr ""
+"%s\n"
+"\n"
+"Bu dosya okunamıyor; Polo düz bir arka plana geri döner."
+
+#: src/widgets.vala:260
+msgid "_Select"
+msgstr "_Seç"
+
+#: src/widgets.vala:262
+msgid "Images"
+msgstr "Görüntüler"
+
+#: src/widgets.vala:302
+msgid "Custom"
+msgstr "Özel"
+
+#: src/window.vala:53
+#, c-format
+msgid "%s · shown when its option is selected"
+msgstr "%s · seçeneği seçildiğinde gösterilir"
+
+#: src/window.vala:85
+msgid "Restore All Defaults…"
+msgstr "Tüm Varsayılanları Geri Yükle…"
+
+#: src/window.vala:86
+msgid "About Polo Tweaks"
+msgstr "Polo Tweaks Hakkında"
+
+#: src/window.vala:153
+msgid "Search settings"
+msgstr "Ayarlarda ara"
+
+#: src/window.vala:220
+#, c-format
+msgid "Nothing matches “%s”"
+msgstr "“%s” ile eşleşen bir şey yok"
+
+#: src/window.vala:235
+msgid "Polo's settings are not installed"
+msgstr "Polo'nun ayarları kurulu değil"
+
+#: src/window.vala:238
+#, c-format
+msgid ""
+"Polo Tweaks edits Polo's GSettings schemas, but these were not found:\n"
+"\n"
+"%s\n"
+"\n"
+"Install Polo (or run glib-compile-schemas on its data directory) and start Polo Tweaks again."
+msgstr ""
+"Polo Tweaks, Polo'nun GSettings şemalarını düzenler ancak şunlar bulunamadı:\n"
+"\n"
+"%s\n"
+"\n"
+"Polo'yu kurun (veya veri dizininde glib-compile-schemas çalıştırın) ve Polo Tweaks'i yeniden başlatın."
+
+#: src/window.vala:248
+msgid "Restore every Polo setting?"
+msgstr "Polo'nun her ayarı geri yüklensin mi?"
+
+#: src/window.vala:249
+msgid "All settings on every page, including keyboard shortcuts, go back to their original values."
+msgstr "Klavye kısayolları dahil her sayfadaki tüm ayarlar özgün değerlerine döner."
+
+#: src/window.vala:251
+msgid "_Restore All"
+msgstr "_Tümünü Geri Yükle"
+
+#: src/window.vala:269
+msgid "Settings for Polo's effects, desktop cube, Expo and keyboard shortcuts."
+msgstr "Polo'nun efektleri, masaüstü küpü, Expo ve klavye kısayolları için ayarlar."
