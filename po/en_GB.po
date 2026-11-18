@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: polo-tweaks 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-17 00:00+0000\n"
+"POT-Creation-Date: 2026-11-18 00:01-0700\n"
 "PO-Revision-Date: 2026-11-17 00:00+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -15,9 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-
 #: data/org.mate.PoloTweaks.desktop:3 src/window.vala:71 src/window.vala:83
-#: src/window.vala:267
+#: src/window.vala:270
 msgid "Polo Tweaks"
 msgstr "Polo Tweaks"
 
@@ -225,6 +224,106 @@ msgstr "Minimise with Magic Lamp"
 msgid "A switch from before the minimise animation could be chosen. It only has an effect while the minimise animation is None."
 msgstr "A switch from before the minimise animation could be chosen. It only has an effect while the minimise animation is None."
 
+#: src/page-background.vala:7 src/page-cube.vala:37 src/page-expo.vala:33
+msgid "Background"
+msgstr "Background"
+
+#: src/page-background.vala:8
+msgid "The desktop background MATE applications and Polo share."
+msgstr "The desktop background MATE applications and Polo share."
+
+#: src/page-background.vala:9 src/page-general.vala:9
+msgid "Desktop"
+msgstr "Desktop"
+
+#: src/page-background.vala:13
+msgid "Picture"
+msgstr "Picture"
+
+#: src/page-background.vala:14
+msgid "Image"
+msgstr "Image"
+
+#: src/page-background.vala:15
+msgid "Leave empty to show only the colours below."
+msgstr "Leave empty to show only the colours below."
+
+#: src/page-background.vala:16
+msgid "Choose a background image"
+msgstr "Choose a background image"
+
+#: src/page-background.vala:17
+msgid "Fit"
+msgstr "Fit"
+
+#: src/page-background.vala:19
+msgid "Zoom (fill, cropping the edges)"
+msgstr "Zoom (fill, cropping the edges)"
+
+#: src/page-background.vala:19
+msgid "Scale (fit inside)"
+msgstr "Scale (fit inside)"
+
+#: src/page-background.vala:19
+msgid "Stretch"
+msgstr "Stretch"
+
+#: src/page-background.vala:20
+msgid "Centre"
+msgstr "Centre"
+
+#: src/page-background.vala:20
+msgid "Tile"
+msgstr "Tile"
+
+#: src/page-background.vala:20
+msgid "Span across all monitors"
+msgstr "Span across all monitors"
+
+#: src/page-background.vala:22
+msgid "Colours"
+msgstr "Colours"
+
+#: src/page-background.vala:22
+msgid "Shown where the image does not cover the screen, or instead of it."
+msgstr "Shown where the image does not cover the screen, or instead of it."
+
+#: src/page-background.vala:23
+msgid "Fill"
+msgstr "Fill"
+
+#: src/page-background.vala:25 src/page-cube.vala:40
+msgid "Solid colour"
+msgstr "Solid colour"
+
+#: src/page-background.vala:25
+msgid "Horizontal gradient"
+msgstr "Horizontal gradient"
+
+#: src/page-background.vala:25
+msgid "Vertical gradient"
+msgstr "Vertical gradient"
+
+#: src/page-background.vala:26 src/page-cube.vala:43
+msgid "Colour"
+msgstr "Colour"
+
+#: src/page-background.vala:28
+msgid "Second colour"
+msgstr "Second colour"
+
+#: src/page-background.vala:31
+msgid "Who draws it"
+msgstr "Who draws it"
+
+#: src/page-background.vala:32
+msgid "Let the desktop draw the background"
+msgstr "Let the desktop draw the background"
+
+#: src/page-background.vala:33
+msgid "When on, Caja draws the background behind its icons, and Polo draws it while no desktop is running. When off, Caja shows only its icons and Polo draws the background under them. That needs a Caja that knows Polo draws the background; an older Caja keeps drawing it."
+msgstr "When on, Caja draws the background behind its icons, and Polo draws it while no desktop is running. When off, Caja shows only its icons and Polo draws the background under them. That needs a Caja that knows Polo draws the background; an older Caja keeps drawing it."
+
 #: src/page-cube.vala:7
 msgid "Desktop Cube"
 msgstr "Desktop Cube"
@@ -309,17 +408,9 @@ msgstr "Shade the sides"
 msgid "Darkens each side by how it faces the light in front of the screen."
 msgstr "Darkens each side by how it faces the light in front of the screen."
 
-#: src/page-cube.vala:37 src/page-expo.vala:33
-msgid "Background"
-msgstr "Background"
-
 #: src/page-cube.vala:38
 msgid "Behind the cube"
 msgstr "Behind the cube"
-
-#: src/page-cube.vala:40
-msgid "Solid colour"
-msgstr "Solid colour"
 
 #: src/page-cube.vala:40 src/page-expo.vala:36
 msgid "Desktop background"
@@ -336,10 +427,6 @@ msgstr "Skydome (panorama image)"
 #: src/page-cube.vala:41
 msgid "Cubemap (box image)"
 msgstr "Cubemap (box image)"
-
-#: src/page-cube.vala:43
-msgid "Colour"
-msgstr "Colour"
 
 #: src/page-cube.vala:45
 msgid "Panorama image"
@@ -542,10 +629,6 @@ msgstr "General"
 msgid "How Polo looks after your session, and how it fits in with other applications."
 msgstr "How Polo looks after your session, and how it fits in with other applications."
 
-#: src/page-general.vala:9
-msgid "Desktop"
-msgstr "Desktop"
-
 #: src/page-general.vala:14
 msgid "Applications"
 msgstr "Applications"
@@ -716,7 +799,7 @@ msgid "Every setting on this page goes back to its original value."
 msgstr "Every setting on this page goes back to its original value."
 
 #: src/page.vala:127 src/shortcut-widgets.vala:22 src/shortcut-widgets.vala:263
-#: src/widgets.vala:260 src/window.vala:250
+#: src/widgets.vala:260 src/window.vala:253
 msgid "_Cancel"
 msgstr "_Cancel"
 
@@ -971,20 +1054,20 @@ msgstr "Restore All Defaults…"
 msgid "About Polo Tweaks"
 msgstr "About Polo Tweaks"
 
-#: src/window.vala:153
+#: src/window.vala:156
 msgid "Search settings"
 msgstr "Search settings"
 
-#: src/window.vala:220
+#: src/window.vala:223
 #, c-format
 msgid "Nothing matches “%s”"
 msgstr "Nothing matches “%s”"
 
-#: src/window.vala:235
+#: src/window.vala:238
 msgid "Polo's settings are not installed"
 msgstr "Polo's settings are not installed"
 
-#: src/window.vala:238
+#: src/window.vala:241
 #, c-format
 msgid ""
 "Polo Tweaks edits Polo's GSettings schemas, but these were not found:\n"
@@ -999,18 +1082,18 @@ msgstr ""
 "\n"
 "Install Polo (or run glib-compile-schemas on its data directory) and start Polo Tweaks again."
 
-#: src/window.vala:248
+#: src/window.vala:251
 msgid "Restore every Polo setting?"
 msgstr "Restore every Polo setting?"
 
-#: src/window.vala:249
+#: src/window.vala:252
 msgid "All settings on every page, including keyboard shortcuts, go back to their original values."
 msgstr "All settings on every page, including keyboard shortcuts, go back to their original values."
 
-#: src/window.vala:251
+#: src/window.vala:254
 msgid "_Restore All"
 msgstr "_Restore All"
 
-#: src/window.vala:269
+#: src/window.vala:272
 msgid "Settings for Polo's effects, desktop cube, Expo and keyboard shortcuts."
 msgstr "Settings for Polo's effects, desktop cube, Expo and keyboard shortcuts."

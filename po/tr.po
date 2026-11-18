@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: polo-tweaks 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-17 00:00+0000\n"
+"POT-Creation-Date: 2026-11-18 00:01-0700\n"
 "PO-Revision-Date: 2026-11-17 00:00+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: data/org.mate.PoloTweaks.desktop:3 src/window.vala:71 src/window.vala:83
-#: src/window.vala:267
+#: src/window.vala:270
 msgid "Polo Tweaks"
 msgstr "Polo İnce Ayarları"
 
@@ -225,6 +225,106 @@ msgstr "Sihirli Lamba ile küçült"
 msgid "A switch from before the minimise animation could be chosen. It only has an effect while the minimise animation is None."
 msgstr "Küçültme animasyonu seçilebilmeden önceki bir anahtar. Yalnızca küçültme animasyonu Yok iken etkilidir."
 
+#: src/page-background.vala:7 src/page-cube.vala:37 src/page-expo.vala:33
+msgid "Background"
+msgstr "Arka plan"
+
+#: src/page-background.vala:8
+msgid "The desktop background MATE applications and Polo share."
+msgstr "MATE uygulamalarının ve Polo'nun paylaştığı masaüstü arka planı."
+
+#: src/page-background.vala:9 src/page-general.vala:9
+msgid "Desktop"
+msgstr "Masaüstü"
+
+#: src/page-background.vala:13
+msgid "Picture"
+msgstr "Resim"
+
+#: src/page-background.vala:14
+msgid "Image"
+msgstr "Görüntü"
+
+#: src/page-background.vala:15
+msgid "Leave empty to show only the colours below."
+msgstr "Yalnızca aşağıdaki renkleri göstermek için boş bırakın."
+
+#: src/page-background.vala:16
+msgid "Choose a background image"
+msgstr "Bir arka plan görüntüsü seçin"
+
+#: src/page-background.vala:17
+msgid "Fit"
+msgstr "Yerleşim"
+
+#: src/page-background.vala:19
+msgid "Zoom (fill, cropping the edges)"
+msgstr "Yakınlaştır (kenarları kırparak doldur)"
+
+#: src/page-background.vala:19
+msgid "Scale (fit inside)"
+msgstr "Ölçekle (içine sığdır)"
+
+#: src/page-background.vala:19
+msgid "Stretch"
+msgstr "Uzat"
+
+#: src/page-background.vala:20
+msgid "Centre"
+msgstr "Ortala"
+
+#: src/page-background.vala:20
+msgid "Tile"
+msgstr "Döşe"
+
+#: src/page-background.vala:20
+msgid "Span across all monitors"
+msgstr "Tüm monitörlere yay"
+
+#: src/page-background.vala:22
+msgid "Colours"
+msgstr "Renkler"
+
+#: src/page-background.vala:22
+msgid "Shown where the image does not cover the screen, or instead of it."
+msgstr "Görüntünün ekranı kaplamadığı yerlerde ya da görüntünün yerine gösterilir."
+
+#: src/page-background.vala:23
+msgid "Fill"
+msgstr "Dolgu"
+
+#: src/page-background.vala:25 src/page-cube.vala:40
+msgid "Solid colour"
+msgstr "Düz renk"
+
+#: src/page-background.vala:25
+msgid "Horizontal gradient"
+msgstr "Yatay geçiş"
+
+#: src/page-background.vala:25
+msgid "Vertical gradient"
+msgstr "Dikey geçiş"
+
+#: src/page-background.vala:26 src/page-cube.vala:43
+msgid "Colour"
+msgstr "Renk"
+
+#: src/page-background.vala:28
+msgid "Second colour"
+msgstr "İkinci renk"
+
+#: src/page-background.vala:31
+msgid "Who draws it"
+msgstr "Kim çiziyor"
+
+#: src/page-background.vala:32
+msgid "Let the desktop draw the background"
+msgstr "Arka planı masaüstü çizsin"
+
+#: src/page-background.vala:33
+msgid "When on, Caja draws the background behind its icons, and Polo draws it while no desktop is running. When off, Caja shows only its icons and Polo draws the background under them. That needs a Caja that knows Polo draws the background; an older Caja keeps drawing it."
+msgstr "Açıkken Caja arka planı simgelerinin arkasına çizer, hiçbir masaüstü çalışmıyorken de Polo çizer. Kapalıyken Caja yalnızca simgelerini gösterir ve arka planı Polo onların altına çizer. Bunun için Polo'nun arka planı çizdiğini bilen bir Caja gerekir; daha eski bir Caja çizmeye devam eder."
+
 #: src/page-cube.vala:7
 msgid "Desktop Cube"
 msgstr "Masaüstü Küpü"
@@ -309,17 +409,9 @@ msgstr "Yüzleri gölgele"
 msgid "Darkens each side by how it faces the light in front of the screen."
 msgstr "Küpün her yüzünü ekranın önündeki ışığa göre karartır."
 
-#: src/page-cube.vala:37 src/page-expo.vala:33
-msgid "Background"
-msgstr "Arka plan"
-
 #: src/page-cube.vala:38
 msgid "Behind the cube"
 msgstr "Küpün arkası"
-
-#: src/page-cube.vala:40
-msgid "Solid colour"
-msgstr "Düz renk"
 
 #: src/page-cube.vala:40 src/page-expo.vala:36
 msgid "Desktop background"
@@ -336,10 +428,6 @@ msgstr "Gök kubbe (panorama görüntüsü)"
 #: src/page-cube.vala:41
 msgid "Cubemap (box image)"
 msgstr "Küp haritası (kutu görüntüsü)"
-
-#: src/page-cube.vala:43
-msgid "Colour"
-msgstr "Renk"
 
 #: src/page-cube.vala:45
 msgid "Panorama image"
@@ -542,10 +630,6 @@ msgstr "Genel"
 msgid "How Polo looks after your session, and how it fits in with other applications."
 msgstr "Polo'nun oturumunuza nasıl baktığı ve diğer uygulamalarla nasıl uyum sağladığı."
 
-#: src/page-general.vala:9
-msgid "Desktop"
-msgstr "Masaüstü"
-
 #: src/page-general.vala:14
 msgid "Applications"
 msgstr "Uygulamalar"
@@ -716,7 +800,7 @@ msgid "Every setting on this page goes back to its original value."
 msgstr "Bu sayfadaki her ayar özgün değerine döner."
 
 #: src/page.vala:127 src/shortcut-widgets.vala:22 src/shortcut-widgets.vala:263
-#: src/widgets.vala:260 src/window.vala:250
+#: src/widgets.vala:260 src/window.vala:253
 msgid "_Cancel"
 msgstr "_İptal"
 
@@ -971,20 +1055,20 @@ msgstr "Tüm Varsayılanları Geri Yükle…"
 msgid "About Polo Tweaks"
 msgstr "Polo Tweaks Hakkında"
 
-#: src/window.vala:153
+#: src/window.vala:156
 msgid "Search settings"
 msgstr "Ayarlarda ara"
 
-#: src/window.vala:220
+#: src/window.vala:223
 #, c-format
 msgid "Nothing matches “%s”"
 msgstr "“%s” ile eşleşen bir şey yok"
 
-#: src/window.vala:235
+#: src/window.vala:238
 msgid "Polo's settings are not installed"
 msgstr "Polo'nun ayarları kurulu değil"
 
-#: src/window.vala:238
+#: src/window.vala:241
 #, c-format
 msgid ""
 "Polo Tweaks edits Polo's GSettings schemas, but these were not found:\n"
@@ -999,18 +1083,18 @@ msgstr ""
 "\n"
 "Polo'yu kurun (veya veri dizininde glib-compile-schemas çalıştırın) ve Polo Tweaks'i yeniden başlatın."
 
-#: src/window.vala:248
+#: src/window.vala:251
 msgid "Restore every Polo setting?"
 msgstr "Polo'nun her ayarı geri yüklensin mi?"
 
-#: src/window.vala:249
+#: src/window.vala:252
 msgid "All settings on every page, including keyboard shortcuts, go back to their original values."
 msgstr "Klavye kısayolları dahil her sayfadaki tüm ayarlar özgün değerlerine döner."
 
-#: src/window.vala:251
+#: src/window.vala:254
 msgid "_Restore All"
 msgstr "_Tümünü Geri Yükle"
 
-#: src/window.vala:269
+#: src/window.vala:272
 msgid "Settings for Polo's effects, desktop cube, Expo and keyboard shortcuts."
 msgstr "Polo'nun efektleri, masaüstü küpü, Expo ve klavye kısayolları için ayarlar."

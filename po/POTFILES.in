@@ -3,6 +3,7 @@ src/accel.vala
 src/conflicts.vala
 src/main.vala
 src/page-animations.vala
+src/page-background.vala
 src/page-cube.vala
 src/page-expo.vala
 src/page-general.vala
