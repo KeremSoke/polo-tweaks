@@ -36,6 +36,7 @@ namespace PoloTweaks {
         public GLib.GenericArray<KeyRef> refs = new GLib.GenericArray<KeyRef> ();
 
         private Gtk.Button reset_button;
+        private Gtk.Box outer;
 
         public Row (string title, string? subtitle = null, Gtk.Widget? control = null, Gtk.Widget? wide = null) {
             this.title = title;
@@ -81,7 +82,7 @@ namespace PoloTweaks {
             }
             line.pack_start (reset_button, false, false, 0);
 
-            var outer = new Gtk.Box (Gtk.Orientation.VERTICAL, 8) {
+            outer = new Gtk.Box (Gtk.Orientation.VERTICAL, 8) {
                 margin_top = 10, margin_bottom = 10, margin_start = 14, margin_end = 10
             };
             outer.pack_start (line, false, false, 0);
@@ -89,6 +90,12 @@ namespace PoloTweaks {
                 outer.pack_start (wide, false, false, 0);
             }
             add (outer);
+        }
+
+        /* Set the row in under the one before it, as one of its options. */
+        public Row indent () {
+            outer.margin_start = 38;
+            return this;
         }
 
         /* Mark this row as editing a key. */
@@ -202,9 +209,9 @@ namespace PoloTweaks {
 
         /* ---- Controls --------------------------------------------------------------- */
 
-        public Row toggle (Settings s, string key, string title, string? hint = null) {
+        public Row toggle (Settings s, string key, string title, string? hint = null, bool invert = false) {
             var sw = new Gtk.Switch ();
-            s.bind (key, sw, "active", SettingsBindFlags.DEFAULT);
+            s.bind (key, sw, "active", invert ? SettingsBindFlags.INVERT_BOOLEAN : SettingsBindFlags.DEFAULT);
             var row = new Row (title, hint, sw);
             row.activator = sw;
             row.activatable = true;

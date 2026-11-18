@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: polo-tweaks 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-18 00:01-0700\n"
+"POT-Creation-Date: 2026-11-18 12:10-0700\n"
 "PO-Revision-Date: 2026-11-17 00:00+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -225,105 +225,157 @@ msgstr "Sihirli Lamba ile küçült"
 msgid "A switch from before the minimise animation could be chosen. It only has an effect while the minimise animation is None."
 msgstr "Küçültme animasyonu seçilebilmeden önceki bir anahtar. Yalnızca küçültme animasyonu Yok iken etkilidir."
 
-#: src/page-background.vala:7 src/page-cube.vala:37 src/page-expo.vala:33
+#: src/page-background.vala:61 src/page-background.vala:87
+#: src/page-cube.vala:37 src/page-expo.vala:33
 msgid "Background"
 msgstr "Arka plan"
 
-#: src/page-background.vala:8
-msgid "The desktop background MATE applications and Polo share."
-msgstr "MATE uygulamalarının ve Polo'nun paylaştığı masaüstü arka planı."
+#: src/page-background.vala:62
+msgid "The desktop background, for all monitors and workspaces or for each on its own."
+msgstr "Masaüstü arka planı: tüm monitörler ve çalışma alanları için tek bir tane ya da her biri için ayrı."
 
-#: src/page-background.vala:9 src/page-general.vala:9
+#: src/page-background.vala:63 src/page-general.vala:9
 msgid "Desktop"
 msgstr "Masaüstü"
 
-#: src/page-background.vala:13
-msgid "Picture"
-msgstr "Resim"
+#: src/page-background.vala:76
+msgid "Let Polo draw the background"
+msgstr "Arka planı Polo çizsin"
 
-#: src/page-background.vala:14
+#: src/page-background.vala:77
+msgid "Polo draws the background under the desktop icons, so each monitor and each workspace can have its own, and the cube and Expo show them. When off, Caja draws one background behind its icons, and Polo draws it only while Caja is not running."
+msgstr "Polo arka planı masaüstü simgelerinin altına çizer; böylece her monitörün ve her çalışma alanının kendi arka planı olabilir, küp ve Expo da bunları gösterir. Kapalıyken Caja simgelerinin arkasına tek bir arka plan çizer, Polo ise arka planı yalnızca Caja çalışmıyorken çizer."
+
+#: src/page-background.vala:88
+msgid "Shown on every monitor and workspace that has no background of its own."
+msgstr "Kendi arka planı olmayan her monitörde ve çalışma alanında gösterilir."
+
+#: src/page-background.vala:106
+msgid "Polo"
+msgstr "Polo"
+
+#: src/page-background.vala:106
+msgid "Caja"
+msgstr "Caja"
+
+#: src/page-background.vala:117
 msgid "Image"
 msgstr "Görüntü"
 
-#: src/page-background.vala:15
-msgid "Leave empty to show only the colours below."
-msgstr "Yalnızca aşağıdaki renkleri göstermek için boş bırakın."
+#: src/page-background.vala:118
+msgid "Leave empty to show only the colours."
+msgstr "Yalnızca renkleri göstermek için boş bırakın."
 
-#: src/page-background.vala:16
+#: src/page-background.vala:118
 msgid "Choose a background image"
 msgstr "Bir arka plan görüntüsü seçin"
 
-#: src/page-background.vala:17
+#: src/page-background.vala:119
 msgid "Fit"
 msgstr "Yerleşim"
 
-#: src/page-background.vala:19
+#: src/page-background.vala:121
 msgid "Zoom (fill, cropping the edges)"
 msgstr "Yakınlaştır (kenarları kırparak doldur)"
 
-#: src/page-background.vala:19
+#: src/page-background.vala:121
 msgid "Scale (fit inside)"
 msgstr "Ölçekle (içine sığdır)"
 
-#: src/page-background.vala:19
+#: src/page-background.vala:121
 msgid "Stretch"
 msgstr "Uzat"
 
-#: src/page-background.vala:20
+#: src/page-background.vala:122
 msgid "Centre"
 msgstr "Ortala"
 
-#: src/page-background.vala:20
+#: src/page-background.vala:122
 msgid "Tile"
 msgstr "Döşe"
 
-#: src/page-background.vala:20
-msgid "Span across all monitors"
-msgstr "Tüm monitörlere yay"
+#: src/page-background.vala:122
+msgid "Span across monitors"
+msgstr "Monitörlere yay"
 
-#: src/page-background.vala:22
+#: src/page-background.vala:123
 msgid "Colours"
 msgstr "Renkler"
 
-#: src/page-background.vala:22
+#: src/page-background.vala:124
 msgid "Shown where the image does not cover the screen, or instead of it."
 msgstr "Görüntünün ekranı kaplamadığı yerlerde ya da görüntünün yerine gösterilir."
 
-#: src/page-background.vala:23
-msgid "Fill"
-msgstr "Dolgu"
-
-#: src/page-background.vala:25 src/page-cube.vala:40
+#: src/page-background.vala:126 src/page-cube.vala:40
 msgid "Solid colour"
 msgstr "Düz renk"
 
-#: src/page-background.vala:25
+#: src/page-background.vala:126
 msgid "Horizontal gradient"
 msgstr "Yatay geçiş"
 
-#: src/page-background.vala:25
+#: src/page-background.vala:126
 msgid "Vertical gradient"
 msgstr "Dikey geçiş"
 
-#: src/page-background.vala:26 src/page-cube.vala:43
+#: src/page-background.vala:127 src/page-cube.vala:43
 msgid "Colour"
 msgstr "Renk"
 
-#: src/page-background.vala:28
+#: src/page-background.vala:128
 msgid "Second colour"
 msgstr "İkinci renk"
 
-#: src/page-background.vala:31
-msgid "Who draws it"
-msgstr "Kim çiziyor"
+#: src/page-background.vala:210
+msgid "Turn on “Let Polo draw the background” to use these: Caja draws one background for every monitor and workspace."
+msgstr "Bunları kullanmak için “Arka planı Polo çizsin” seçeneğini açın: Caja her monitör ve çalışma alanı için tek bir arka plan çizer."
 
-#: src/page-background.vala:32
-msgid "Let the desktop draw the background"
-msgstr "Arka planı masaüstü çizsin"
+#: src/page-background.vala:215
+msgid "Needs a mate-desktop with per-monitor backgrounds (the org.mate.background.monitor settings)."
+msgstr "Monitör başına arka plan destekleyen bir mate-desktop gerektirir (org.mate.background.monitor ayarları)."
 
-#: src/page-background.vala:33
-msgid "When on, Caja draws the background behind its icons, and Polo draws it while no desktop is running. When off, Caja shows only its icons and Polo draws the background under them. That needs a Caja that knows Polo draws the background; an older Caja keeps drawing it."
-msgstr "Açıkken Caja arka planı simgelerinin arkasına çizer, hiçbir masaüstü çalışmıyorken de Polo çizer. Kapalıyken Caja yalnızca simgelerini gösterir ve arka planı Polo onların altına çizer. Bunun için Polo'nun arka planı çizdiğini bilen bir Caja gerekir; daha eski bir Caja çizmeye devam eder."
+#: src/page-background.vala:218
+msgid "Needs a Polo with per-workspace backgrounds (the org.mate.polo.background.workspace settings)."
+msgstr "Çalışma alanı başına arka plan destekleyen bir Polo gerektirir (org.mate.polo.background.workspace ayarları)."
+
+#: src/page-background.vala:248
+msgid "Per monitor"
+msgstr "Monitör başına"
+
+#: src/page-background.vala:249
+msgid "A monitor with its own background keeps it on every workspace."
+msgstr "Kendi arka planı olan bir monitör onu her çalışma alanında korur."
+
+#: src/page-background.vala:260
+msgid "Monitor"
+msgstr "Monitör"
+
+#: src/page-background.vala:278
+#, c-format
+msgid "%s · The same model as another monitor. Polo tells them apart by serial number, which Polo Tweaks cannot see."
+msgstr "%s · Başka bir monitörle aynı model. Polo onları seri numarasından ayırt eder, Polo İnce Ayarları ise bunu göremez."
+
+#: src/page-background.vala:285
+#, c-format
+msgid "%s · Give this monitor its own background"
+msgstr "%s · Bu monitöre kendi arka planını ver"
+
+#: src/page-background.vala:300
+#, c-format
+msgid "Workspace %d"
+msgstr "Çalışma alanı %d"
+
+#: src/page-background.vala:304
+msgid "Per workspace"
+msgstr "Çalışma alanı başına"
+
+#: src/page-background.vala:305
+msgid "Shown while the workspace is the current one, on every monitor without a background of its own."
+msgstr "Çalışma alanı geçerli olanken, kendi arka planı olmayan her monitörde gösterilir."
+
+#: src/page-background.vala:313
+msgid "Give this workspace its own background"
+msgstr "Bu çalışma alanına kendi arka planını ver"
 
 #: src/page-cube.vala:7
 msgid "Desktop Cube"
@@ -999,7 +1051,7 @@ msgstr "Tıklarken en az bir değiştirici tuşu basılı tutun."
 msgid "Use the left, middle, right, back or forward button."
 msgstr "Sol, orta, sağ, geri veya ileri düğmesini kullanın."
 
-#: src/ui.vala:65
+#: src/ui.vala:66
 msgid "Reset to default"
 msgstr "Varsayılana sıfırla"
 
