@@ -122,6 +122,9 @@ namespace PoloTweaks {
             all_pages.add (new WobblyPage ());
             all_pages.add (new AnimationsPage ());
             all_pages.add (new ExpoPage ());
+            if (Schemas.installed (Schemas.SCALE)) {
+                all_pages.add (new ScalePage ());
+            }
             all_pages.add (new CubePage ());
             all_pages.add (new ShortcutsPage ());
 

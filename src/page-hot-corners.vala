@@ -3,13 +3,18 @@
 namespace PoloTweaks {
 
     namespace HotActions {
-        public const string[] IDS = { "none", "expo", "cube", "show-desktop", "window-switcher", "lock-screen",
-                                      "run-dialog", "command" };
+        public const string[] IDS = { "none", "expo", "cube", "scale", "scale-all-workspaces", "scale-application",
+                                      "scale-application-all-workspaces", "show-desktop", "window-switcher",
+                                      "lock-screen", "run-dialog", "command" };
 
         public string label (string id) {
             switch (id) {
                 case "expo": return _("Expo");
                 case "cube": return _("Desktop cube");
+                case "scale": return _("Scale: this workspace");
+                case "scale-all-workspaces": return _("Scale: every workspace");
+                case "scale-application": return _("Scale: this application");
+                case "scale-application-all-workspaces": return _("Scale: this application, every workspace");
                 case "show-desktop": return _("Show the desktop");
                 case "window-switcher": return _("Window switcher");
                 case "lock-screen": return _("Lock the screen");

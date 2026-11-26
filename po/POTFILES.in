@@ -7,6 +7,7 @@ src/page-animations.vala
 src/page-background.vala
 src/page-cube.vala
 src/page-expo.vala
+src/page-scale.vala
 src/page-general.vala
 src/page-hot-corners.vala
 src/page-shortcuts.vala

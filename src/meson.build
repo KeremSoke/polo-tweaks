@@ -22,6 +22,8 @@ if mate_desktop_dep.found() and meson.get_compiler('c').has_header('libmate-desk
 endif
 
 accel_source = files('accel.vala')
+scale_page_sources = files('page-scale.vala', 'page-hot-corners.vala', 'hot-corner-geometry.vala', 'screens.vala',
+  'schemas.vala', 'conflicts.vala', 'ui.vala', 'widgets.vala', 'shortcut-widgets.vala', 'page.vala')
 hot_corners_page_sources = files('schemas.vala', 'conflicts.vala', 'ui.vala', 'widgets.vala',
   'shortcut-widgets.vala', 'page.vala', 'screens.vala', 'hot-corner-geometry.vala', 'page-hot-corners.vala')
 
@@ -30,7 +32,7 @@ executable('polo-tweaks',
    'accel.vala', 'schemas.vala', 'conflicts.vala', 'ui.vala', 'widgets.vala',
    'shortcut-widgets.vala', 'page.vala',
    'page-general.vala', 'page-background.vala', 'screens.vala', 'hot-corner-geometry.vala', 'page-hot-corners.vala', 'page-wobbly.vala', 'page-animations.vala',
-   'page-expo.vala', 'page-cube.vala', 'page-shortcuts.vala',
+   'page-expo.vala', 'page-scale.vala', 'page-cube.vala', 'page-shortcuts.vala',
    'window.vala', 'main.vala'],
   dependencies: [gtk_dep, glib_dep, gio_dep, m_dep] + monitor_info_deps,
   vala_args: ['--target-glib=2.66'] + monitor_info_vala_args,

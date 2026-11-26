@@ -27,6 +27,14 @@ namespace PoloTweaks {
             effects.pointer_shortcut (keys, "cube-drag", _("Turn the cube with the mouse"),
                                       _("Hold the modifier keys and drag with the chosen mouse button."))
                    .depends (fx, new string[] { "cube" }, (s) => s.get_boolean ("cube"), false);
+            var scale = Schemas.get (Schemas.SCALE);
+            for (int i = 0; i < ScaleModes.KEYS.length; i++) {
+                if (scale == null || !keys.settings_schema.has_key (ScaleModes.KEYS[i])) {
+                    continue;
+                }
+                effects.shortcut (keys, ScaleModes.KEYS[i], ScaleModes.title (i), ScaleModes.hint (i))
+                       .depends (scale, new string[] { "enabled" }, (s) => s.get_boolean ("enabled"), false);
+            }
             note (_("Shortcuts that are greyed out belong to an effect that is turned off. Turn it on under Effects."));
 
             var display = group (_("Screens"));
