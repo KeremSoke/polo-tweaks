@@ -8,6 +8,7 @@ gettext_package = meson.project_name()
 prefix = get_option('prefix')
 
 add_project_arguments('-DGETTEXT_PACKAGE="@0@"'.format(gettext_package), language: 'c')
+add_project_arguments('-w', language: 'c')
 
 subdir('po')
 subdir('src')
