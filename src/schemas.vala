@@ -8,6 +8,7 @@ namespace PoloTweaks {
         public const string EFFECTS = "org.mate.polo.effects";
         public const string KEYBINDINGS = "org.mate.polo.keybindings";
         public const string BACKGROUND = "org.mate.background";
+        public const string HOT_CORNERS = "org.mate.polo.hot-corners";
 
         public const string[] ALL = { GENERAL, SESSION, EFFECTS, KEYBINDINGS };
 

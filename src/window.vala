@@ -116,6 +116,9 @@ namespace PoloTweaks {
             if (Schemas.installed (Schemas.BACKGROUND)) {
                 all_pages.add (new BackgroundPage ());
             }
+            if (Schemas.installed (Schemas.HOT_CORNERS)) {
+                all_pages.add (new HotCornersPage ());
+            }
             all_pages.add (new WobblyPage ());
             all_pages.add (new AnimationsPage ());
             all_pages.add (new ExpoPage ());

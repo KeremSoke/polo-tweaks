@@ -2,7 +2,7 @@ public class PoloTweaks.Application : Gtk.Application {
     public Application () {
         Object (application_id: "org.mate.PoloTweaks", flags: ApplicationFlags.HANDLES_COMMAND_LINE);
         add_main_option ("page", 'p', OptionFlags.NONE, OptionArg.STRING,
-                         "Open a page: general, wobbly, animations, expo, cube or shortcuts", "PAGE");
+                         "Open a page: general, hot-corners, wobbly, animations, expo, cube or shortcuts", "PAGE");
     }
 
     protected override int command_line (ApplicationCommandLine command_line) {

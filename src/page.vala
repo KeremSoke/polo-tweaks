@@ -19,6 +19,7 @@ namespace PoloTweaks {
         private GLib.GenericArray<KeyRef> extra_keys = new GLib.GenericArray<KeyRef> ();
         private Settings? master_settings = null;
         private string? master_key = null;
+        private Gtk.Box? header_switches = null;
 
         protected Page (string id, string title, string icon, string summary, string section) {
             Object (hscrollbar_policy: Gtk.PolicyType.NEVER);
@@ -63,15 +64,35 @@ namespace PoloTweaks {
             master_key = key;
             extra_keys.add (new KeyRef (settings, key));
 
-            var box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 10) { valign = Gtk.Align.CENTER };
-            var text = new Gtk.Label (label ?? _("Enabled"));
-            var sw = new Gtk.Switch ();
+            var sw = header_switch (label ?? _("Enabled"));
             settings.bind (key, sw, "active", SettingsBindFlags.DEFAULT);
             settings.bind (key, body, "sensitive", SettingsBindFlags.GET);
+            settings.changed[key].connect (() => status_changed ());
+        }
+
+        private Gtk.Switch header_switch (string label) {
+            if (header_switches == null) {
+                header_switches = new Gtk.Box (Gtk.Orientation.VERTICAL, 8) { valign = Gtk.Align.CENTER };
+                header.pack_start (header_switches, false, false, 0);
+            }
+            var box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 10) { halign = Gtk.Align.END };
+            var text = new Gtk.Label (label);
+            var sw = new Gtk.Switch ();
             box.pack_start (text, false, false, 0);
             box.pack_start (sw, false, false, 0);
-            header.pack_start (box, false, false, 0);
-            settings.changed[key].connect (() => status_changed ());
+            header_switches.pack_start (box, false, false, 0);
+            return sw;
+        }
+
+        protected Gtk.Switch add_header_switch (Settings settings, string key, string label, string? tooltip = null) {
+            extra_keys.add (new KeyRef (settings, key));
+            var sw = header_switch (label);
+            sw.tooltip_text = tooltip;
+            settings.bind (key, sw, "active", SettingsBindFlags.DEFAULT);
+            if (master_settings != null) {
+                master_settings.bind (master_key, sw.get_parent (), "sensitive", SettingsBindFlags.GET);
+            }
+            return sw;
         }
 
         public virtual string? status_text () {
@@ -134,7 +155,7 @@ namespace PoloTweaks {
             content.pack_start (button, false, false, 0);
         }
 
-        public void restore_defaults () {
+        public virtual void restore_defaults () {
             for (int i = 0; i < extra_keys.length; i++) {
                 extra_keys[i].reset ();
             }
