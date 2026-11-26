@@ -17,3 +17,18 @@ hot_corners_test = executable('hot-corners-test',
 test('hot corners page', hot_corners_test,
   env: ['GSETTINGS_BACKEND=memory', 'GSETTINGS_SCHEMA_DIR=' + meson.current_build_dir()],
   depends: hot_corners_schemas)
+
+scale_schemas = custom_target('scale-schemas',
+  input: 'scale/org.mate.polo.scale.gschema.xml',
+  output: 'scale-schemas',
+  build_by_default: true,
+  command: [find_program('sh'), '-c', 'mkdir -p "$1" && glib-compile-schemas --strict --targetdir "$1" "$2"', 'sh',
+            '@OUTPUT@', meson.current_source_dir() / 'scale'])
+scale_test = executable('scale-test',
+  ['scale-test.vala', accel_source, scale_page_sources],
+  dependencies: [gtk_dep, glib_dep, gio_dep, m_dep] + monitor_info_deps,
+  vala_args: ['--target-glib=2.66'] + monitor_info_vala_args,
+  c_args: monitor_info_c_args)
+test('scale page', scale_test,
+  env: ['GSETTINGS_BACKEND=memory', 'GSETTINGS_SCHEMA_DIR=' + meson.current_build_dir() / 'scale-schemas'],
+  depends: scale_schemas)
